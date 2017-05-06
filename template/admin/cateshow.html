@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<style>
+	table{
+		width: 800px;
+		margin:20px 10px;
+		border: 1px solid #000;
+		border-collapse: collapse;
+		font-size: 14px;
+		text-align: center;
+		table-layout: fixed;
+	}
+	tr{
+		height: 30px;
+	}
+	th,td{
+		width: 12.5%;
+		border: 1px solid #000;	
+		height: 30px;
+	}
+	td>span{
+		height: 30px;
+		display:block;/*内联对象需加*/  
+   		width:100%;  
+    	word-break:keep-all;/* 不换行 */  
+    	white-space:nowrap;/* 不换行 */  
+    	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */  
+    	text-overflow:ellipsis;
+	}
+	a{
+		margin-left: 10px;
+	}
+	img{
+		border: none;
+	}
+</style>
+<body>
+	<table>
+		<tr>
+			<th>cid</th>
+			<th>cname</th>
+			<th>pid</th>	
+			<th>操作</th>
+		</tr>
+		<tbody>
+				{foreach $res as $v}
+				<tr>
+					<td>{$v["scid"]}</td>
+					<td>{$v["scname"]}</td>
+					<td>{$v["spid"]}</td>
+					<td><a href="index.php?&m=admin&f=category&a=del&id={$v['scid']}">删除</a><a href="index.php?&m=admin&f=category&a=edit&id={$v['scid']}">编辑</a></td>
+				</tr>
+				{/foreach}
+					
+		</tbody>
+	</table>
+</body>
+</html>

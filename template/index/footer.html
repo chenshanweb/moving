@@ -1,0 +1,27 @@
+<!--底部开始-->	
+		<div class="zrl-footer">
+			<a href="index.php?m=index&f=index" class="zrl-foot zrl-foot-tab1 zrl-foot-show indexfoot">
+			</a>
+			<a href="index.php?m=index&f=siren" class="zrl-foot zrl-foot-tab2 zrl-foot-show sirenfoot">
+			</a>
+			<a href="index.php?m=index&f=ping" class="zrl-foot zrl-foot-tab3">
+			</a>
+			<a href="index.php?m=index&f=quan" class="zrl-foot zrl-foot-tab4 zrl-foot-show quanfoot">
+			</a>
+			<a href="index.php?m=index&f=wode" class="zrl-foot zrl-foot-tab5 zrl-foot-show wodefoot">
+			</a>
+			<div style="display: none;" class="hidfoot">{$yemian}</div>
+		</div>
+		<!--底部结束-->
+	</div>	
+</body>
+
+	
+<script> 
+	//底部touch事件
+   	var footchoose= $(".hidfoot").html(); 
+   	$(".zrl-foot").css("box-shadow","none");
+   	$("."+footchoose).eq(0).css("box-shadow","0 0 0.3rem #bbbaba");	
+</script>  
+	
+</html>

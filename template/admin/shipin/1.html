@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="{CSS_PATH}/bootstrap.min.css">
+		<script charset="utf-8" src="{JS_PATH}/admin/shipin/upload.js"></script>
+	</head>
+	<style>
+			form {
+				margin: 0;
+			}
+			textarea {
+				display: block;
+			}
+			.box{
+			width: 300px;
+			height: 200px;
+			border: 1px solid #000000;
+			position: relative;
+		}
+		.img{
+			width: 300px;
+			height: 180px;
+		}
+		.img img{
+			width: 100%;
+			height: 100%;
+		}
+		.progress{
+			width: 0%;
+			height:15px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background: red;
+			font-size: 12px;
+			text-align: center;
+			line-height: 15px;			
+		}
+		</style>
+	<body>
+	<form action="index.php?m=admin&f=art&a=add" method="post">
+
+    <div class="form-group">
+        <label for="cid">选择分类</label>
+        <select class="form-control" name="scid" id="scid">
+            <!--<option value="0">一级分类</option>-->
+            {$tree}
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="stitle">文章标题</label>
+        <input type="text" class="form-control" id="ssname" name="ssname" placeholder="标题">
+    </div>
+
+    <div class="form-group">
+        <label for="scon">视频说明</label>
+       <!-- <script id="editor" type="text/plain" style="width:1024px;height:500px;" name="scon"></script>-->
+       <!--<form>-->
+			<textarea name="sscon" style="width:800px;height:200px; "></textarea>
+			
+			<input type="file" name="file" multiple="multiple" class="one" />
+			<div class="box">
+				<div class="img">
+					<img src="" alt="">
+				</div>
+				<div class="progress"></div>
+			</div><br />
+		<!--<!--</form>-->
+    </div>
+    <button type="submit" class="btn btn-default ok">Submit</button>
+    <input type="hidden" class="hid" name="imgurl"/>
+</form>
+<script>
+
+	window.onload=function(){
+		var sub=document.querySelector(".ok");
+		var val=document.querySelector(".hid");
+		var obj=new upload("index.php?m=admin&f=art&a=file",".one",".progress","img");
+		obj.up(function(e){
+			console.log(e);
+			obj.start=function(){
+				val.value=e;
+				sub.removeAttribute("disabled");
+			}
+			obj.start();
+		})
+	}
+
+//  var ue = UE.getEditor('editor');
+//  KindEditor.ready(function(K) {
+//		K.create('textarea[name="content"]', {
+//			autoHeightMode : true,
+//			afterCreate : function() {
+//				this.loadPlugin('autoheight');
+//			}
+//		});
+//	});
+</script>
+</body>
+</html>

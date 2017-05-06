@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="{CSS_PATH}/bootstrap.min.css" />
+	</head>
+	<style>
+		th{
+			text-align: center;
+		}
+	</style>
+	<body>
+		<table class="table text-center table-bordered">
+			<tr>
+				<th>ssid</th>
+				<th>标题</th>
+				<th>所属上级</th>
+				<th>视频地址</th>
+				<th>视屏显示图片地址</th>
+				<th>视频时间</th>
+				<th>等级</th>
+				<th>点击量</th>
+				<th>推荐位</th>
+				<th>发布时间</th>
+				<th>操作</th>
+			</tr>
+			{foreach $result as $v}
+			<tr>
+				<td>{$v["ssid"]}</td>
+				<td>{$v["ssname"]}</td>
+				<td>{$v["scid"]}</td>
+				<td>{$v["ssrc"]}</td>
+				<td>{$v["ssimg"]}</td>
+				<td>{$v["sstime"]}</td>
+				<td>{$v["ssdengji"]}</td>
+				<td>{$v["sshits"]}</td>
+				<td>{$v["sstuijianwei"]}</td>
+				<td>{$v["ssstime"]}</td>
+				<td>
+					<a href="index.php?m=admin&f=art1&a=info&ssid={$v['ssid']}">查看</a>
+					<a href="index.php?m=admin&f=art1&a=del&ssid={$v['ssid']}">删除</a>				
+				</td>
+			</tr>
+			{/foreach}
+		</table>
+		{$pages}
+	</body>
+</html>-->

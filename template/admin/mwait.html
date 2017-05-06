@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>addwait</title>
+	<script src="{JS_PATH}/jquery.min.js"></script>
+</head>
+<style>
+	.in{
+		margin:100px auto;
+		width: 300px;
+		text-align: center;
+		border: 1px solid #000000;
+	}
+	.tishi{
+		background: #eee;
+		line-height: 30px;
+		height: 30px;
+		color: #000;
+	}
+	.cao{
+		font-size: 30px;
+		color: red;
+		line-height: 40px;
+	}
+	p{
+		font-size: 15px;
+		line-height: 30px;
+	}
+	span{
+		color: red;
+	}
+	a{
+		color: gold;
+	}
+</style>
+<body>
+	<div class="in">
+		<div class="tishi">提示信息</div>
+		<div class="cao">{$message}</div>
+		<p>页面将于<span>3</span>秒后跳转
+		</br>如无反应，请<a href={$url}>点击</a></p>
+	</div>
+</body>
+<script>
+	var span=document.querySelector("span");
+	var num=3;
+	var url=$("a").attr("href");
+	var t=setInterval(function(){
+		num--;
+		if(num===0){
+			clearInterval(t);
+			location.href=url;
+		}else{
+			span.innerHTML=num;
+		}
+	},1000)
+</script>
+</html>

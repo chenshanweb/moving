@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script src="{JS_PATH}/index/quan/zepto.js"></script>
+	<script src="{JS_PATH}/index/quan/iscroll-probe.js"></script>
+	<script src="{JS_PATH}/index/quan/pinglun.js"></script>
+	<link rel="stylesheet" href="{CSS_PATH}/index/quan/pinglun.css" />
+	<link rel="stylesheet" href="{CSS_PATH}/index/quan/public.css" />
+</head>
+<body>
+	<div class="zrl-index-wrap">	
+		<div class="zrl-index-scroll">
+			<div class="zrl-pl-body">
+				<!--主评论-->
+				<div class="zrl-pl-main">
+					<div class="zrl-pl-bhead">
+						<div class="zrl-pl-toux">
+							<img src="{IMG_PATH}/index/quan/touxiang1.png" alt="" />
+						</div>
+						<div class="zrl-pl-name">Keep</div>
+						<div class="zrl-pl-time"></div>
+						<a href="">回复</a>
+					</div>	
+					<div class="zrl-pl-content">
+						有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+						有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+						有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+					</div>
+				</div>
+				<!--其他评论-->
+				<div class="zrl-pl-other">
+					<hr />
+					<div class="zrl-pl-om">
+						<div class="zrl-pl-bhead">
+							<div class="zrl-pl-toux">
+								<img src="{IMG_PATH}/index/quan/touxiang1.png" alt="" />
+							</div>
+							<div class="zrl-pl-name">Keep</div>
+							<div class="zrl-pl-time"></div>
+							<a href="">回复</a>
+						</div>	
+						<div class="zrl-pl-content">
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+						</div>
+						<hr />
+					</div>
+					<div class="zrl-pl-om">
+						<div class="zrl-pl-bhead">
+							<div class="zrl-pl-toux">
+								<img src="{IMG_PATH}/index/quan/touxiang1.png" alt="" />
+							</div>
+							<div class="zrl-pl-name">Keep</div>
+							<div class="zrl-pl-time"></div>
+							<a href="">回复</a>
+						</div>	
+						<div class="zrl-pl-content">
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+						</div>
+						<hr />
+					</div>
+					<div class="zrl-pl-om">
+						<div class="zrl-pl-bhead">
+							<div class="zrl-pl-toux">
+								<img src="{IMG_PATH}/index/quan/touxiang1.png" alt="" />
+							</div>
+							<div class="zrl-pl-name">Keep</div>
+							<div class="zrl-pl-time"></div>
+							<a href="">回复</a>
+						</div>	
+						<div class="zrl-pl-content">
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+						</div>
+						<hr />
+					</div>
+					<div class="zrl-pl-om">
+						<div class="zrl-pl-bhead">
+							<div class="zrl-pl-toux">
+								<img src="{IMG_PATH}/index/quan/touxiang1.png" alt="" />
+							</div>
+							<div class="zrl-pl-name">Keep</div>
+							<div class="zrl-pl-time"></div>
+							<a href="">回复</a>
+						</div>	
+						<div class="zrl-pl-content">
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+						</div>
+						<hr />
+					</div>
+					<div class="zrl-pl-om">
+						<div class="zrl-pl-bhead">
+							<div class="zrl-pl-toux">
+								<img src="{IMG_PATH}/index/quan/touxiang1.png" alt="" />
+							</div>
+							<div class="zrl-pl-name">Keep</div>
+							<div class="zrl-pl-time"></div>
+							<a href="">回复</a>
+						</div>	
+						<div class="zrl-pl-content">
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+							有的人有用，有的人没有用，不是绝对的，适合自己才是最好的
+						</div>
+						<hr />
+					</div>
+				</div>	
+			</div>
+		</div>
+		<!--固定头部-->
+		<div class="zrl-pl-head">
+			<a href="index.php?m=index&f=quan&a=xiangqingye" class="zrl-pl-back"></a>
+			<span class="zrl-pl-word">100条回复</span>
+		</div>
+		
+		<!--固定底部-->
+		
+		
+		
+		<div class="zrl-pl-foot">
+			<input type="text"  placeholder="回复评论" class="zrl-pl-ly"/>
+		</div>
+	</div>
+</body>
+<script>
+	window.onload=function(){
+		var myScroll = new IScroll('.zrl-index-wrap',{
+			      click:true,
+				  mouseWheel: true,
+    			  scrollbars: true,
+    			  probeType: 3
+			});
+
+	}
+</script>
+</html>

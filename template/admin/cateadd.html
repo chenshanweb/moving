@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="{CSS_PATH}/bootstrap.min.css"/>
+</head>
+<body>
+	<form action="index.php?m=admin&f=category&a=add" method="post">
+		上级栏目：<select name="pid" class="form-control">
+					<option value="0">一级导航</option>
+					{$tree}
+				</select><br>
+		添加分类：<input type="text" name="cname" class="form-control"/><br>
+		<input type="submit" value="提交" class="btn btn-default"/>
+	</form>
+</body>
+</html>

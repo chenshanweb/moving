@@ -1,0 +1,559 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*header start*/
+.bg_header{
+	width: 100%;height: 3.6rem;
+	background-image: url(../../../img/index/quan/header.png);
+	background-size: 100% 100%;
+	position: relative;
+}
+.bg_headr_left{
+	width: 3rem;height: 1.2rem;
+	margin-top: 1.3rem;
+	margin-left: 0.23rem;
+	float: left;
+}
+.idd{
+	width: 100%;height: 0.3rem;
+	font-size: 0.1rem;
+	color: #fff;
+}
+.ima{
+	width: 100%;height: 0.5rem;
+	font-size: 0.48rem;
+	font-weight: bold;
+	color: #fff;
+}
+.heng{
+	width: 100%;height: 0.05rem;
+	margin-top: 0.1rem;
+	background-image: url(../../../img/index/quan/……_03.png);
+	background-size: 100% 100%;
+	
+}
+.jinquanzi{
+	width: 100%;height: 0.1rem;
+	font-size: 0.3rem;
+	font-weight: bold;
+	color: #fff;
+}
+.bg_headr_right{
+	width: 0.6rem;height: 0.4rem;
+	float: left;
+	margin-top: 0.7rem;
+	margin-left: 3.2rem;
+}
+.bg_headr_right img{
+	width: 100%;height: 100%;
+	display: block;
+}
+/*.bg_headr_right_duan{
+	width: 80%;height: 0.07rem;
+	background: #fff;
+	border-radius: 0.05rem;
+	margin-bottom: 0.05rem;
+	float: right;
+}
+.bg_headr_right_chang{
+	width: 100%;height: 0.07rem;
+	background: #fff;
+	border-radius: 0.05rem;
+	margin-bottom: 0.05rem;
+	float: right;
+}*/
+.xuanxiangquan{
+	width: 3.78rem;height: 0.6rem;
+	background: #fff;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 0.3rem #dccce9;
+	position: absolute;
+	left: 1.86rem;bottom: -0.3rem;
+}
+.xuanxiangquanworld{
+	width: 1.58rem;height: 0.5rem;
+	margin-top: 0.05rem;
+	margin-left: 0.06rem;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.3rem;
+	color: #fff;
+	background-image: url(../../../img/index/quan/bgquan_03.png);
+	background-size: 100% 100%;
+	float: left;
+} 
+.xuanxiangquanfriend{
+	width: 2rem;height: 0.5rem;
+	margin-top: 0.05rem;
+	margin-left: 0.06rem;
+	float: left;
+}
+.xuanxiangquanfriendtop{
+	width: 100%;height: 0.3rem;
+	text-align: center;
+	line-height: 0.3rem;
+	font-size: 0.2rem;
+	color: plum;
+}
+.xuanxiangquanfriendbot{
+	width: 100%;height: 0.2rem;
+	text-align: center;	
+	line-height: 0.2rem;
+	font-size: 0.12rem;
+	color: plum;
+}
+/*header end*/
+/*jinquan start*/
+.jianquanbox{
+	width: 100%;height: auto;
+}
+.czl_friends{
+	margin-top:0.5rem;
+	width:100%;height:0.88rem;
+	padding:0 0.23rem;
+	background:url(../../../img/index/quan/dnjq_17.png) no-repeat;
+	background-size:30%;
+	background-position:0.25rem 0;
+	box-sizing: border-box;
+}
+.czl_xbk{
+	width:100%;height:100%;
+	border-bottom:0.02rem solid #ccc;
+}
+.czl_daini{
+	margin-top:0.5rem;
+	width:100%;height:4.76rem;
+	padding:0 0.23rem;
+	position:relative;
+	z-index: 2;
+	margin-bottom:0.5rem;
+	box-sizing: border-box;
+}
+.czl_centre{
+	width:100%;height:100%;
+	box-shadow:0 0 0.3rem #ccc;
+}
+.czl_dtop{
+	width:100%;height:0.88rem;
+}
+.czl_dtop .left{
+	width:1.15rem;height:100%;
+	float:left;
+	background-image: url(../../../img/index/quan/dtouxiang.png);
+	background-size: 100% 100%;
+}
+.czl_dtop .leftimg{
+	width: 0.58rem;height: 0.58rem;
+	margin-top: 0.18rem;
+	margin-left: 0.32rem;
+	background: #ccc;
+	border-radius: 50%;
+}
+.czl_dtop .leftimg img{
+	display: block;
+	width: 100%;height: 100%;
+	border-radius: 50%;
+}
+.czl_dtop .center{
+	width:4.45rem;height:100%;
+	float:left;
+}
+.czl_dtop .center .jimtop{
+	width:100%;height:0.42rem;
+	padding-top:0.12rem;
+	box-sizing: border-box;
+}
+.czl_dtop .center .jimtop span{
+	float:left;
+}
+.czl_dtop .center .jimtop span:nth-child(1){
+	font-size:0.3rem;
+	font-weight: bold;
+}
+.czl_dtop .center .jimtop span:nth-child(2){
+	font-size:0.3rem;
+}
+.czl_dtop .center .jimtop span:nth-child(3){
+	display: inline-block;
+	width:0.24rem;height:0.24rem;
+	margin-left:0.16rem;
+	background: url(../../../img/index/quan/hg.png) no-repeat;
+	background-size:100%;
+}
+.czl_dtop .center .jimtop span:nth-child(4){
+	display: inline-block;
+	width:0.24rem;height:0.24rem;
+	margin-left:0.08rem;
+	background: url(../../../img/index/quan/hg.png) no-repeat;
+	background-size:100%;
+}
+.czl_dtop .center .jimbottom{
+	display: block;
+	width:100%;height:0.4rem;
+	text-align:left;
+	float:left;
+	font-size:0.25rem;
+}
+.czl_dtop .right{
+	width:1.2rem;height:100%;
+	padding-top:0.26rem;
+	float:left;
+	box-sizing: border-box;
+}
+.czl_dtop .right span{
+	display: inline-block;
+	float:left;
+}
+.czl_dtop .right span:nth-child(1){
+	width:0.3rem;height:0.28rem;
+	background:url(../../../img/index/quan/clock.png) no-repeat;
+	background-size:100%;
+}
+.czl_dtop .right span:nth-child(2){
+	font-size:0.22rem;
+	font-weight: bold;
+	margin-left:0.05rem;
+}
+.czl_dtop .right span:nth-child(3){
+	float:left;
+	font-size:0.22rem;
+}
+
+.czl_dcenter{
+	display:block;
+	width:100%;height:3.09rem;
+	text-decoration: none;
+	color:#000;
+}
+.czl_dcenter .tp{
+	width:6.66rem;height:1.82rem;
+	background: url(../../../img/index/quan/9movingqb_03.png) no-repeat;
+	background-size:100%;
+	margin:auto;
+	position:relative;
+	z-index: 2;
+}
+.czl_dcenter .yinyin{
+	width:6.47rem;height:0.36rem;
+	box-shadow: 0 0 0.3rem #ccc;
+	margin:auto;
+	margin-top:-0.3rem;
+}
+.czl_dcenter .yinyin2{
+	width:6.32rem;height:0.36rem;
+	box-shadow: 0 0 0.3rem #ccc;
+	margin:auto;
+	margin-top:-0.25rem;
+}
+.czl_dcenter .ykzm{
+	width:100%;height:0.56rem;
+	padding:0 0.23rem;
+	box-sizing: border-box;
+}
+.czl_dcenter .ykzm span:nth-child(1){
+	float:left;
+	line-height: 0.56rem;
+	font-size: 0.20rem;
+}
+.czl_dcenter .ykzm span:nth-child(2){
+	float:left;
+	display: inline-block;
+	width:2.1rem;height:100%;
+	background:url(../../../img/index/quan/9movingwz.png) no-repeat;
+	background-size:100%;
+	background-position:0 0.15rem;
+	margin-left:0.1rem;
+}
+.czl_dcenter .ykzm span:nth-child(3){
+	display: inline-block;
+	width:0.47rem;height:0.27rem;
+	background: url(../../../img/index/quan/hot.png) no-repeat;
+	background-size:100%;
+	float:left;
+	margin-left:0.12rem;
+	margin-top:0.15rem;
+}
+.czl_dcenter .line{
+	width:2.75rem;height:0.02rem;
+	border-bottom: 0.02rem dashed #ccc;
+	margin-left:0.23rem;
+}
+.czl_dcenter .hkx{
+	width:100%;height:0.47rem;
+	line-height: 0.47rem;
+	padding:0 0.23rem;
+	box-sizing: border-box;
+	font-size:0.2rem;
+}
+.czl_dbottom{
+	width:100%;height:0.77rem;
+	padding:0 0.23rem;
+	box-sizing: border-box;
+}
+.czl_dbottom .center{
+	width:100%;height:100%;
+	border-top:0.02rem solid #ccc;
+}
+.dzleft{
+	width:1.87rem;height:100%;
+	border-right:0.02rem solid #ccc;
+	padding-top:0.2rem;
+	float:left;
+	box-sizing: border-box;
+	position: relative;
+}
+/*.dzleft1{
+	width:1.87rem;height:100%;
+	border-right:0.02rem solid #ccc;
+	padding-top:0.2rem;
+	float:left;
+	box-sizing: border-box;
+	position: relative;
+}*/
+.dzleft .circle{
+	width:0.43rem;height:0.43rem;
+	border-radius: 50%;
+	box-shadow: 0 0 0.1rem #ccc;
+	text-align: center;
+	line-height: 0.43rem;
+	font-size: 0.3rem;
+	float:left;
+	position: absolute;
+	top: 0.2rem;
+}
+.dzleft .cright{
+	width:1.2rem;height:0.4rem;
+	margin-left:0.2rem;
+	float:left;
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	position: absolute;
+	left: 0.4rem;top: 0.2rem;
+}
+.dzleft .alerdy{
+	width: 100%;height: 100%;
+	background: #fff;
+	position: absolute;
+	left: 0;top: 0rem;
+	display: none;
+}
+.dzleft .alerdy1{
+	width: 100%;height: 100%;
+	background: #fff;
+	position: absolute;
+	left: 0;top: 0rem;
+	display: none;
+}
+.dzleft .cright .top{
+	width:100%;height:20%;
+}
+.dzleft .cright .top span{
+	float:left;
+	font-size:0.18rem;
+	color:#909090;
+	-webkit-transform:scale(0.9)
+}
+.dzleft .cright .top span:nth-child(2){
+	color:#b2b2b2;
+}
+.dzleft .cright .bottom{
+	width:100%;height:30%;
+	font-size:0.2rem;
+	color:#ccc;
+	text-align:left;
+	-webkit-transform:scale(0.9)
+} 
+/*.dzleft1 .circle{
+	width:0.43rem;height:0.43rem;
+	border-radius: 50%;
+	box-shadow: 0 0 0.1rem #ccc;
+	text-align: center;
+	line-height: 0.43rem;
+	font-size: 0.3rem;
+	float:left;
+	position: absolute;
+	top: 0.2rem;
+}
+.dzleft1 .cright{
+	width:1.2rem;height:0.4rem;
+	margin-left:0.2rem;
+	float:left;
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	position: absolute;
+	left: 0.4rem;top: 0.2rem;
+}
+.dzleft1 .alerdy{
+	width: 100%;height: 100%;
+	background: #fff;
+	position: absolute;
+	left: 0;top: 0rem;
+	display: none;
+}
+.dzleft .alerdy1{
+	width: 100%;height: 100%;
+	background: #fff;
+	position: absolute;
+	left: 0;top: 0rem;
+	display: none;
+}
+.dzleft1 .cright .top{
+	width:100%;height:20%;
+}
+.dzleft1 .cright .top span{
+	float:left;
+	font-size:0.18rem;
+	color:#909090;
+	-webkit-transform:scale(0.9)
+}
+.dzleft1 .cright .top span:nth-child(2){
+	color:#b2b2b2;
+}
+.dzleft1 .cright .bottom{
+	width:100%;height:30%;
+	font-size:0.2rem;
+	color:#ccc;
+	text-align:left;
+	-webkit-transform:scale(0.9)
+} */
+.czl_dbottom .center .dzcenter{
+	width:2.82rem;height:100%;
+	border-right:0.02rem solid #ccc;
+	float:left;
+}
+.czl_dbottom .center .dzcenter .circlebox{
+	width: 1.6rem;height: 100%;
+	margin-left: 0.6rem;
+}
+.czl_dbottom .center .dzcenter .circlebox div{
+	width: 0.6rem;height: 0.6rem;
+	border: 0.03rem solid #ccc;
+	border-radius: 50%;
+	margin-right: -0.2rem;
+	margin-top: 0.08rem;
+	float: left;
+}
+.czl_dbottom .center .dzcenter .circlebox div img{
+	width: 100%;height: 100%;
+	border-radius: 50%;
+	display: block;
+}
+.czl_dbottom .center .dzright{
+	width:1.84rem;height:100%;
+	float:left;
+	padding-top:0.26rem;
+	box-sizing: border-box;
+}
+.xbj1{
+	display: block;
+	width:0.31rem;height:0.31rem;
+	float:left;
+	margin-left:0.31rem;
+	background:url(../../../img/index/quan/dzxin.png) no-repeat;
+	background-size:100%;
+}
+.xbj2{
+	display: block;
+	width:0.31rem;height:0.31rem;
+	margin-left:0.2rem;
+	float:left;
+	background:url(../../../img/index/quan/dzbj.png) no-repeat;
+	background-size:100%;
+}
+.xbj3{
+	display: block;
+	width:0.49rem;height:0.3rem;
+	margin-left:0.21rem;
+	padding-top:0.08rem;
+	float:left;
+}
+.xbj3 div{
+	width:0.11rem;height:0.11rem;
+	border-radius: 50%;
+	margin-left:0.05rem;
+	background: #ccc;
+	float:left;
+}
+.add{
+	width: 100%;height: 0.87rem;
+	margin-top: 0.25rem;
+}
+.add img{
+	display: block;
+	width: 100%;height: 100%;
+}
+/*jinquan end*/
+
+/*foot开始*/
+.zrl-footer{
+	padding:0.1rem 0.23rem;
+	width:100%;
+	height:1.2rem;
+		position:absolute;
+			bottom:0;
+			left:0;
+	box-sizing: border-box;
+	background:#fff;
+}
+.zrl-foot{
+	display:block;
+	float:left;
+	margin-top:0.05rem;
+}
+.zrl-footer .zrl-foot-tab1{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../../img/index/quan/zrl-footer1.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	box-shadow:0 0 0.3rem #bbbaba;
+	border-radius:0.1rem;
+	margin-left:0.2rem;
+}
+.zrl-foot-tab2{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../../img/index/quan/zrl-footer2.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab3{
+	width:1.8rem;
+	height:0.9rem;
+	background:url("../../../img/index/quan/zrl-footer3.png") center center no-repeat;
+	background-size:1.6rem 0.85rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab4{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../../img/index/quan/zrl-footer4.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab5{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../../img/index/quan/zrl-footer5.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab5:hover{
+	box-shadow:0 0 0.3rem #bbbaba;
+}
+/*scroll 代码*/
+.zrl-index-wrap{
+		width:100%;
+		height:100%;
+		position:absolute;
+		top:0;
+		left:0;
+		overflow:hidden;
+}
+.zrl-index-scroll{
+	padding-bottom:1.2rem;
+}

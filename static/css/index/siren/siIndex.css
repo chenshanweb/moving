@@ -1,0 +1,633 @@
+/*banner开始*/
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.hyx-banner{
+	width: 100%;
+	height:3.42rem;
+	background: url(../../../img/index/siren/hyxs_03.png) no-repeat;
+	background-size: 100%;
+	margin-top: -0.4rem;
+	
+}
+.hyx-n{
+	/*height: 0.54rem;*/
+	text-align: left;
+	font-size: 0.12rem;
+	padding-top: 0.55rem;
+	color:#fefefe;
+	padding-left: 0.23rem;
+	padding-right: 0.23rem;
+}
+.hyx-i{
+	text-align: left;
+	font-size: 0.35rem;
+	color:#fefefe;
+	padding-left: 0.23rem;
+	padding-right: 0.23rem;
+}
+.hyximg{	
+	display: block;
+	margin:0.08rem 0;
+	height: 0.03rem;
+	padding-left: 0.23rem;
+	padding-right: 0.23rem;
+}
+.hyx-s{
+	text-align: left;
+	font-size: 0.24rem;
+	color:#fefefe;
+	padding-left: 0.23rem;
+	padding-right: 0.23rem;
+}
+.hyx-vip{
+	height:0.53rem;
+	margin-top: 0.47rem;
+	padding-left: 0.23rem;
+	padding-right: 0.23rem;
+}
+.hyx-left{
+	/*width: 3rem;*/
+	height: 100%;
+	float: left;
+	/*background: #0ff;*/
+}
+.hyx-left li{
+	width: 1.14rem;
+	height: 0.53rem;
+	float: left;
+	color: #cda9fc;
+	font-size: 0.16rem;
+	margin-right: 0.29rem;
+	text-align: center;
+	line-height: 0.53rem;
+}
+.hyx-left li a{
+	color: #cda9fc;
+}
+.hyx-left li:nth-child(1){
+	background: #fff;
+	border-radius: 20px;
+	color: #ad2ff0;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px #ccc;
+}
+.hyx-left li:nth-child(1) a{
+	color: #ad2ff0;
+}
+.hyx-left li:nth-child(2){
+	width: 1.4rem;
+	border: 1px solid #6663e7;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px #6663e7;
+}
+.hyx-left li:nth-child(3){
+	width: 1.7rem;
+	border: 1px solid #6663e7;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px #6663e7;
+}
+.hyx-right{
+	width: 0.51rem;
+	height: 0.35rem;
+	float: right;
+	padding-top: 0.07rem;
+}
+.hyx-right img{
+	display: block;
+	width:100%;
+	height: 100%;
+}
+/*banner结束*/
+/*教练选择开始*/
+.con{
+	padding-left: 0.23rem;
+	padding-right: 0.23rem;
+	background: #f4f4f4;
+}
+.con:after{
+	content: ;
+	display: block;
+	clear: both;
+}
+.hyx-jiaolian{
+	height: 0.64rem;
+	padding-top: 0.67rem;
+	padding-bottom: 0.4rem;
+}
+.hyx-jiaolian:after{
+	content: ;
+	display: block;
+	clear: both;
+}
+.hyx-jiaolian img{
+	width: 2.74rem;
+	height: 0.64rem;
+	float: left;
+}
+.hyx-jiaolian ul{
+	width: 0.5rem;
+	height: 0.09rem;
+	/*background: #f00;*/
+	float: right;
+	margin-top: 0.09rem;
+}
+.hyx-jiaolian ul li{
+	float: left;
+	width:0.09rem;
+	height: 0.09rem;
+	background: #5d2ed3;
+	border-radius: 50%;
+	margin-right: 0.02rem;
+}
+.hyxImg{
+	height:auto;
+	/*background: #f00;*/
+}
+.hyxImg li{
+	width: 3.03rem;
+	height: 4.56rem;
+	float: left;
+	margin-left: 0.4rem;
+	/*margin-right: 0.4rem;*/
+	/*background: #0ff;*/
+}
+.imgimg{
+	width: 100%;
+	height: 100%;
+	/*border: 0.01rem solid #f00;*/
+	background: url(../../../img/index/siren/hyxyy.png) no-repeat;
+	
+	background-size: 100%;
+	overflow: hidden;
+}
+.hyx-mv{
+	width: 2.52rem;
+	height: 3.67rem;
+	/*background: #f00;*/
+	/*box-shadow: 0 0 0.15rem #eee;
+	margin: 0.1rem 0 0 0.1rem;*/
+	margin:0.2rem 0 0 0.2rem;
+}
+.hyx-mv .mv-img{
+	width: 100%;
+	height: 2.17rem;
+	border: 0.02rem solid #fff;
+	box-sizing: border-box;
+	box-shadow: 0 0 0.12rem #eee;
+	border-radius: 0.08rem;
+}
+.hyx-mv .mv-img img{
+	width:100%;
+	height: 100%;
+}
+.hyx-mv h3.hyx-h3{
+	font-size: 0.2rem;
+	color: #8743d6;
+	margin-top: 0.05rem;
+}
+.hyx-wu{
+	height: 0.17rem;
+	/*background: #000;*/
+}
+
+.hyx-wu img{
+	display: block;
+	width: 0.16rem;
+	height: 0.17rem;
+	float: left;
+}
+.hyxDashed{
+	width:0.58rem;
+	height: 0.03rem;
+	margin-top: 0.03rem;
+	margin-bottom: 0.03rem;
+}
+.hyxDashed img{
+	display: block;
+	width: 1005;
+	height: 100%;
+}
+.hyx-l{
+	height:0.16rem;
+	margin-top: 0.07rem;
+	margin-bottom: 0.07rem;
+}
+.hyx-love{
+	/*margin-top: 0.07rem;*/
+	height:0.16rem;
+	float: left;
+	margin-right: 0.21rem;
+}
+
+.hyx-love span:nth-child(1){
+	display: block;
+	width: 0.16rem;
+	height: 0.16rem;
+	background: url(../../../img/index/siren/love_16.png) no-repeat;
+	background-position: center;
+	background-size: 100%;
+	float: left;
+	
+}
+.hyx-love span:nth-child(2){
+	/*display: block;*/
+	font-size: 0.12rem;
+	color: #8d8c8c;
+	float: left;
+	margin-left: 0.04rem;
+	line-height: 0.16rem;
+}
+.hyx-xinxi span:nth-child(1){
+	height: 0.16rem;
+	background: url(../../../img/index/siren/love_13.png) no-repeat;
+	background-position: center center;
+	background-size: 100%;
+}
+.hyx-btn{
+	height: 0.45rem;
+	/*background: #f00;*/
+}
+.hyx-btn .btn-left{
+	width: 0.45rem;
+	height: 0.45rem;
+	border: 0.02rem solid#fff;
+	border-radius: 50%;
+	float: left;
+}
+.left-img{
+	width: 0.43rem;
+	height: 0.43rem;
+	margin: auto;
+	border-radius: 50%;
+}
+.left-img img{
+	width:100%;
+	height: 100%;
+	border-radius: 50%;
+	display: block;
+}
+.btn-right{
+	/*width:1.06rem;*/
+	height: 0.4rem;
+	/*background: #0ff;*/
+	margin-top: 0.03rem;
+	margin-left: 0.1rem;
+	float: left;
+}
+.btn-right span{
+	font-size: 0.2rem;
+	display: block;
+	color: #555;
+	font-weight: bold;
+}
+.btn-right img{
+	display: block;
+	width:0.34rem;
+	height: 0.18rem;
+	}
+.hyxImg:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.h-xunlian{
+	width: 2.70rem;
+	height: 0.5rem;
+}
+/*教练选择结束rem*/
+/*训练开始*/
+.hyx-xunlian{
+	width:100%;
+	height: 3.1rem;
+	background: url(../../../img/index/siren/hyxa_03.png) no-repeat;
+}
+.hyx-nei{
+	padding-left: 0.23rem;
+	padding-right: 0.23rem;
+	overflow: hidden;
+}
+.hyx-tr{
+	font-size:0.14rem;
+	color: #fff;
+	margin-top: 0.5rem;
+	
+}
+.hyx-cu{
+	color: #fff;
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.hyx-im{
+	padding-left: 0;
+}
+.hyx-xlkcb{
+	font-size: 0.22rem;
+	color:#ededed;
+}
+.box-hyx{
+	height: 0.52rem;
+	margin-top: 0.6rem;	
+	/*background: #0ff;*/
+}
+.hyx-pre{
+	width:5.08rem;
+	height: 0.1rem;
+	background: #d99fe9;
+	opacity: 0.5;
+	border-radius: 0.15rem;
+	margin-top: 0.05rem;
+	position: relative;
+	
+}
+.hyx-pregress{
+	position: absolute;
+	left: 0;;
+	top: 0;
+	width:3.83rem;
+	height: 0.1rem;
+	border-radius: 0.15rem;
+	background: -webkit-linear-gradient(left, #305af5 , #45f9f6);
+}
+.box-left{
+	height: 100%;
+	float: left;	
+}
+.box-right{
+	float: right;
+	width:0.98rem;
+	height: 0.44rem;
+	background: #fff;
+	color:#4734c7;
+	text-align: center;
+	line-height: 0.44rem;
+	border-radius: 0.25rem;
+	font-size: 0.14rem;
+	font-weight: bold;
+}
+.box-right a{
+	color:#4734c7;
+}
+.hyx-wc{
+	font-size: 0.16rem;
+	color:#b9b6cf;
+
+}
+.hyx-wc span{
+	color:#f7f6fc;
+}
+.hyx-nei:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*训练结束*/
+/*完成开始*/
+.hyx-con1{
+	width:100%;
+	height: auto;
+	background: #f4f4f4;
+}.box-con{
+	padding-left:0.23rem;
+	padding-right:0.23rem;
+}
+
+.hyx-con1{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*04*/
+.hu_imgbox4{
+	width:7.04rem ;height: 0.93rem;
+	background: url(../../../img/index/siren/4.png);
+	margin-top:0.45rem ;
+	background-size:80%;
+	background-position: 0 -0.1rem;
+	background-repeat:no-repeat ;
+}
+
+
+.hu_food_title{
+	height: 1.05rem;
+	border-bottom: 2px solid #dfdfdf;
+}
+.hu_food_title div:nth-child(1){
+	font-size: 0.28rem;
+	color: #1f7bf2;
+	margin-top: 0.34rem;
+	font-weight: bold;
+}
+.hu_food_title div:nth-child(2){
+	font-size: 0.30rem;
+	color: #1f7bf2;
+	font-weight: 700;
+}
+.hu_food_con{
+	margin: 0 auto;
+	width: 6.9rem;
+	height: 2.2rem;
+	margin-top: 0.25rem;
+	box-shadow: 0 0 0.1rem #ccc;
+	display: flex;
+	padding-bottom: 0.4rem;
+}
+.hu_person_box{
+	width: 1.7rem;
+	height: 2.2rem;
+	padding: 0.28rem 0;
+}
+.hu_touxiang{
+	margin: auto;
+	width: 0.92rem;
+	height: 0.92rem;
+}
+.hu_touxiang img{
+	width: 100%;
+}
+.hu_name{
+	margin: auto;
+	color: #787676;
+	padding-left: 0.3rem;
+	font-size: 0.25rem;
+	
+}
+.hu_person_box div:nth-child(1){
+	width: 0.08rem;
+	height: 1.3rem;
+	border-radius: 0.05rem;
+	background: #8119ca;
+	float: left;
+	margin-top: -0.2rem;
+	margin-left: 0.05rem;
+}
+.hu_person_box div:nth-child(1) p{
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 0.05rem;
+	background: #8119ca;
+	float: left;
+	margin-top: 1.35rem;
+}
+.hu_text_box{
+	width: 2.5rem;
+	height: 2.2rem;
+	padding: 0.5rem 0;
+	margin-left: 0.2rem;
+}
+.hu_text_box h2{
+	font-size: 0.27rem;
+	color: #787676;
+}
+.hu_text_box p{
+	font-size: 0.21rem;
+	color: #7f7e7e;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+}
+.hu_text_box h3{
+	font-size: 0.24rem;
+	color: #929292;
+}
+.hu_text_box img{
+	width: 60%;
+	font-size:0.27rem;
+	color:#787676;
+	float: left;
+	margin-top: 0.2rem;
+}
+.hu_text_box span:nth-child(5){
+	margin-top: 0.38rem;
+	font-size: 0.16rem;
+	color: #929292;
+	float: right;
+}
+.hu_text_box span:nth-child(6){
+	margin-top: 0.32rem;
+	color: #929292;
+	font-size: 0.28rem;
+	float: right;
+}
+
+.hu_shuju_box{
+	width: 1.9rem;
+	height: 2.2rem;
+	margin: 0.3rem 0.2rem;
+	
+}
+.hu_cir{
+	width: 0.65rem;
+	height: 0.65rem;
+	/*border: 2px solid #d031cc;*/
+	border-radius: 50%;
+float: right;
+	/*margin: 0.3rem 0.6rem;*/
+}
+canvas{
+		/*margin: 0.3rem 0.6rem;*/
+}
+.hu_cir span{
+	display: block;
+	font-size: 0.21rem;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.55rem;
+}
+.hu_shuju_box h3{
+	font-size: 0.26rem;
+	color: #abaaaa;
+	text-align: right;
+}
+.hu_join{
+	margin-top: 0.1rem;
+	float: right;
+	width: 1.15rem;
+	height: 0.45rem;
+	background: #a31aef;
+	border-radius: 0.5rem;
+}
+.hu_join a{
+	display: block;
+	color: #fff;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.45rem;
+}
+
+/*04 end*/
+/*完成结束*/
+/*foot开始*/
+.zrl-footer{
+	padding:0.1rem 0.23rem;
+	width:100%;
+	height:1.2rem;
+		position:absolute;
+			bottom:0;
+			left:0;
+	box-sizing: border-box;
+	background:#fff;
+}
+.zrl-foot{
+	display:block;
+	float:left;
+	margin-top:0.05rem;
+}
+.zrl-footer .zrl-foot-tab1{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../../img/index/siren/zrl-footer1.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	box-shadow:0 0 0.3rem #bbbaba;
+	border-radius:0.1rem;
+	margin-left:0.2rem;
+}
+.zrl-foot-tab2{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../../img/index/siren/zrl-footer2.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab3{
+	width:1.8rem;
+	height:0.9rem;
+	background:url("../../../img/index/siren/zrl-footer3.png") center center no-repeat;
+	background-size:1.6rem 0.85rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab4{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../../img/index/siren/zrl-footer4.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab5{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../../img/index/siren/zrl-footer5.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab5:hover{
+	box-shadow:0 0 0.3rem #bbbaba;
+}
+/*scroll 代码*/
+.zrl-index-wrap{
+		width:100%;
+		height:100%;
+		position:absolute;
+		top:0;
+		left:0;
+		overflow:hidden;
+}
+.zrl-index-scroll{
+	padding-bottom:1.2rem;
+}

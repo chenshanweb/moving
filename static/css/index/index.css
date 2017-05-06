@@ -1,0 +1,658 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../../font/li/iconfont.eot');
+  src: url('../../font/li/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../../font/li/iconfont.woff') format('woff'),
+  url('../../font/li/iconfont.ttf') format('truetype'),
+  url('../../font/li/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+	width:100%;
+	height:auto;
+	background:#f6f6f6;
+}
+
+/*banner开始*/
+.zrl-banner-box{
+	width:100%;
+	height:6.2rem;
+	position:relative;
+}
+.zrl-banner-head{
+	width:100%;
+	height:1.05rem;
+	position:absolute;
+	top:0;
+	left:0;
+	background:#1a2736;
+	opacity:0.7;
+	z-index: 10;
+}
+.zrl-first:nth-child(1){
+	width:0.4rem;
+	height:0.06rem;
+	background:#fff;
+	position:absolute;
+	left:0.3rem;
+	top:0.4rem;
+	border-radius:30%;
+}
+.zrl-first:nth-child(2){
+	width:0.5rem;
+	height:0.06rem;
+	background:#fff;
+	position:absolute;
+	left:0.3rem;
+	top:0.5rem;
+	border-radius:30%;
+}
+.zrl-first:nth-child(3){
+	width:0.4rem;
+	height:0.06rem;
+	background:#fff;
+	position:absolute;
+	left:0.3rem;
+	top:0.6rem;
+	border-radius:30%;
+}
+.zrl-banner-news{
+	width:0.4rem;
+	height:0.3rem;
+	border-radius:40%;
+	background:#620df2;
+	position:absolute;
+	top:0.2rem;
+	left:0.75rem;
+		color:#fff;
+	font-size:0.05rem;
+	text-align: center;
+	line-height:0.3rem;
+}
+.zrl-banner-search{
+	width:0.65rem;
+	height:0.4rem;
+	position:absolute;
+	top:0.35rem;
+	right:0.3rem;
+	background:url("../../img/index/liimg/zrl-banner-search.png") no-repeat;
+	background-size:100% 100%;
+}
+.zrl-banner-title{
+	width:3.1rem;
+	height:0.9rem;
+	position:absolute;
+	top:0.45rem;
+	left:2.22rem;
+	background:url("../../img/index/liimg/zrl-banner-title.png") no-repeat;
+	background-size:100% 100%;
+}
+.zrl-banner-con{
+	width:100%;
+	height:1.22rem;
+	background:url("../../img/index/liimg/zrl-banner-con.png") no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+.zrl-banner-con img{
+	width:0.69rem;
+	height:0.69rem;
+	display:block;
+	position:absolute;
+	border-radius: 10%;
+	top:0.27rem;
+	left:0.27rem;
+}
+.zrl-banner-w1{
+	font-size:0.18rem;
+	color:#e244f9;
+	position:absolute;
+	top:0.2rem;
+	left:1.6rem;
+	font-weight:bold;
+}
+.zrl-banner-w2{
+	font-size:0.18rem;
+	color:#e244f9;
+	position:absolute;
+	bottom:0.3rem;
+	left:1.6rem;
+	font-weight:bold;
+}
+.zrl-banner{
+	width:100%;
+	height:5rem;
+	position:relative;
+}
+.zrl-banner-aa{
+	width:100%;
+	height:100%;
+}
+.zrl-banner-aa  img{
+	display:block;
+	width:100%;
+	height:100%;
+}
+/*banner结束*/
+
+
+/*功能区开始*/
+.zrl-function{
+	padding:0 0.23rem;
+	box-sizing:border-box;
+	width:100%;
+	height:1.65rem;
+	margin-top:0.7rem;
+	display:flex;
+	flex-direction: row;	
+	justify-content:space-around;	
+}
+.zrl-dr{
+	width:25%;
+	height:1.65rem;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	display: block;
+}
+.zrl-circle{
+	width:1.2rem;
+	height:1.2rem;
+	border-radius:50%;
+	background:#fff;
+	box-shadow:0px 0px  30px #e1d0ea;
+	position:relative;
+	text-align:center;
+	line-height:1.2rem;
+}
+.zrl-circle1{
+	position:absolute;
+	top:0.08rem;
+	left:0.1rem;
+	width:1rem;
+	height:1rem;
+	border-radius:50%;
+	box-shadow:0px 0px  20px #d5d3d3;
+/*	transition:transform 2s linear;*/
+}
+.zrl-cir-bc1{
+	background:url("../../img/index/liimg/function1.png") center center no-repeat;
+		background-size:0.45rem 0.45rem;
+}
+.zrl-cir-bc2{
+	background:url("../../img/index/liimg/function2.png") center center no-repeat;
+		background-size:0.45rem 0.45rem;
+}
+.zrl-cir-bc3{
+	background:url("../../img/index/liimg/function3.png") center center no-repeat;
+		background-size:0.45rem 0.45rem;
+}
+.zrl-cir-bc4{
+	background:url("../../img/index/liimg/function4.png") center center no-repeat;
+		background-size:0.45rem 0.45rem;
+}
+.zrl-circle2{
+	width:0.08rem;
+	height:0.08rem;
+	-webkit-border-radius:50%;
+	background:#1fc96f;
+	position:absolute;
+	top:0.2rem;
+  left:0;
+  	transition:transform 0.05s linear;
+}
+.zrl-dr-text{
+	width:1.2rem;
+	height:0.4rem;
+	margin-top:0.1rem;
+}
+.zrl-bc1{
+	background:url("../../img/index/liimg/zrl-index1.png") bottom no-repeat;
+	background-size:1.05rem 0.3rem;
+}
+.zrl-bc2{
+	background:url("../../img/index/liimg/zrl-index2.png") bottom no-repeat;
+	background-size:1.05rem 0.3rem;
+}
+.zrl-bc3{
+	background:url("../../img/index/liimg/zrl-index3.png") bottom no-repeat;
+	background-size:1.05rem 0.3rem;
+}
+.zrl-bc4{
+	background:url("../../img/index/liimg/zrl-index4.png") bottom no-repeat;
+	background-size:1.05rem 0.3rem;
+}
+/*功能区结束*/
+
+
+/*精品活动开始*/
+.zrl-jxhd{
+	width:100%;
+	height:auto;
+		margin-top:0.6rem;
+}
+.jxhd{
+	width:100%;
+	height:2.5rem;
+	overflow:hidden;
+	position:relative;
+		margin-top:0.6rem;
+}
+.zrl-jxhd-head{
+	width:100%;
+	height:0.65rem;
+	background:url("../../img/index/liimg/zrl-index5.png") top center no-repeat;
+	background-size:2.6rem 0.65rem;
+}
+.jxhd-bb {
+	width:100%;
+	height:1.9rem !important;
+}
+.jxhd #jxhd-aa{
+	width:3.4rem !important;
+	height:100%;
+	position:relative;
+	margin-right:0.15rem !important;
+}
+.jxhd #jxhd-aa img{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.zrl-jxhd-w{
+	width:90%;
+	height:100%;
+	background:url("../../img/index/liimg/zrl-jxhd4.png") left center no-repeat;
+	background-size:2.1rem 0.9rem;
+	position:absolute;
+	top:0;
+	left:10%;
+	z-index:10;
+}
+.zrl-jxhd-more{
+width:1rem;
+height:0.4rem;
+position:absolute;
+right:0.2rem;
+bottom:0.2rem;
+background:url("../../img/index/liimg/zrl-jxhd5.png");
+	background-size:100% 100%;
+		z-index:20;
+}
+.jxhd-cc{
+	bottom:-0.2rem !important;
+}
+.zrl-jxhd-zhezhao{
+	width:100%;
+	height:100%;
+	opacity:0.5;
+	position:absolute;
+	top:0;
+	left:0;
+	background: -webkit-linear-gradient(left top, red , blue);
+}
+/*精品活动结束*/
+
+
+/*私人订制开始*/
+.zrl-srdz{
+	width:100%;
+	height:auto;
+	padding:0 0.23rem;
+	margin-top:0.75rem;
+	box-sizing:border-box;
+	display:flex;
+	flex-direction:column;	
+	justify-content:space-around;		
+	overflow: hidden;
+}
+.zrl-srdz-head{
+	width:100%;
+	height:0.65rem;
+	background:url("../../img/index/liimg/zrl-index6.png") top center no-repeat;
+	background-size:2.6rem 0.65rem;
+}
+.zrl-srdz-box{
+	width:100%;
+	height:auto;
+	margin-top:0.3rem;
+	overflow: hidden;
+}
+.zrl-srdz-box1{
+	width:100%;
+	height:1.7rem;
+	background:#8531f7;
+	border-radius:0.1rem;
+	display:flex;
+	flex-direction: row;
+	margin-top:0.1rem;
+		overflow: hidden;
+}
+.zrl-srdz-box .zrl-srdz-box2{
+	background:#19ebe9;
+}
+.zrl-srdz-box1-left{
+	width:1.68rem;
+	height:100%;
+	background:url("../../img/index/liimg/zrl-srdz1.png") center center no-repeat;
+	background-size:1.19rem 1.19rem;
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items:center;
+}
+.zrl-srdz-box1-right{
+	width:5.34rem;
+	height:100%;
+	box-shadow:0 0 0.2rem #bbb7b7;
+	background:url("../../img/index/liimg/zrl-srdz8.png") no-repeat;
+	background-size:100% 100%;
+	margin-left:0.03rem;
+	position:relative;
+}
+.zrl-srdz-box1-right-pic{
+	width:0.6rem;
+	height:0.6rem;
+	border-radius:50%;
+	position:absolute;
+	bottom:0.33rem;
+	left:0.38rem;
+}
+.zrl-srdz-box1-right-pic  img{
+	display:block;
+
+	border-radius:50%;
+}
+.zrl-srdz-name{
+	width:2rem;
+	height:0.27rem;
+	position:absolute;
+	top:0.85rem;
+	left:1.18rem;
+	background:#fff;
+	font-size:0.15rem;
+	letter-spacing:0.03rem;
+}
+.zrl-srdz-time{
+	width:2rem;
+	height:0.3rem;
+	position:absolute;
+	bottom:0.17rem;
+	left:1.7rem; 
+	font-size:0.15rem;
+	letter-spacing:0.03rem;
+	color:#75dcae;
+}
+.zrl-srdz-pragress{
+	width:0.8rem;
+	height:0.8rem;
+	position:absolute;
+	top:0.5rem;
+	right:0.25rem;
+}
+canvas{
+			position: absolute;
+			left: 0;top: 0;
+		}
+.zrl-srdz-box1-right-pic img{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+.zrl-srdz-box1-imgbox{
+	width:0.84rem;
+	height:0.84em;
+}
+.zrl-srdz-box1-imgbox img{
+	display:block;
+	width:100%;
+	height:100%;
+}
+/*私人订制结束*/
+
+
+/*达人推荐开始*/
+.zrl-drtj-box{
+	width:100%;
+	height:auto;
+	padding:0 0.23rem;
+	box-sizing:border-box;
+	margin-top:0.75rem;
+	background:url("../../img/index/liimg/zrl-drtj1.png")  no-repeat;
+	background-size:100% 50%;   
+	background-position:bottom center;
+	overflow: hidden;
+}
+.hu_imgbox3{
+	width:100%;
+	height:0.65rem;
+	background:url("../../img/index/liimg/zrl-index7.png") top center no-repeat;
+	background-size:2.6rem 0.65rem;
+}
+.drtj{
+    width: 100%;
+    height: 11.5rem;
+    margin: 20px auto 0;
+    position: relative;    	
+}
+.zrl-drtj-aa{
+	width:100%;
+	height:10.5rem;
+	overflow: hidden;
+	position: absolute;
+	left: 0;top: 0;
+	text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius:0.2rem;
+  box-shadow: 1px 1px 3px #ccc;
+}
+.zrl-drtj-aa a:nth-child(1){
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.zrl-drtj-aa a:nth-child(1) img{
+	width: 100%;
+}
+.hu_text{
+	margin-left: 0.5rem;
+	width: 100%;
+	height: 0.6rem;
+	text-align: left;
+	color: #7826e7;
+}
+.hu_j5{
+	width: 3rem;height: 0.7rem;
+	line-height: 1rem;
+}
+.hu_j5 i{
+	float: left;
+	padding: 0 0.1rem;
+}
+.hu_dibu{
+	width: 100%;
+	height: 1.2rem;
+	position: relative;
+}
+.hu_mz{
+	position: absolute;
+	left: 1.23rem;top:0.4rem;
+	color: #ccc;
+	font-size: 0.3rem;
+}
+.hu_tx{
+	width:0.5rem ; height: 0.5rem;
+	border-radius:50%;
+	margin-bottom: 0.5rem;
+	position: absolute;
+	left: 0.23rem;top: 0;
+}
+.hu_more{
+	display: block;
+	width: 0.9rem;
+	height: 0.35rem;
+	background:linear-gradient(#F758F9 0%,#C070FB 40%,#C070FB 70%,#C070FB);
+	position: absolute;
+	right: 0.23rem;bottom:0.4rem;
+	color: #fff;
+	font-size: 0.2rem;
+	border-radius:0.17rem ;
+	line-height:0.3rem;
+}
+/*达人推荐结束*/
+
+
+/*快捷区域开始*/
+.zrl-kjqy{
+	width:100%;
+	display:flex;
+	flex-direction:column;	
+	background:#1a2736;
+}
+.zrl-kjqy-head{
+	margin-top:1rem;
+	width:100%;
+	height:0.65rem;
+	display:flex;
+	justify-content:center;
+}
+.zrl-kjqy-head-box{
+	width:2.6rem ;
+	height:0.65rem;
+	background:url("../../img/index/liimg/zrl-index8.png") top center no-repeat;
+	background-size:100% 100%;
+}
+.zrl-kjqy-box{
+	margin-top:0.45rem;
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+.zrl-kjqy-sbox{
+	display:block;
+	width:33.33%;
+	height:2.2rem;
+}
+.zrl-kjqy-sbox img{
+	width:100%;
+	height:100%;
+}
+.zrl-kjqy-bbox{
+	display:block;
+	width:66.66%;
+	height:2.2rem;
+}
+.zrl-kjqy-sbox-w1{
+	background:#5420a1;
+	opacity: 0.7;
+}
+.zrl-kjqy-sbox-w2{
+	background:#1e3db1;
+}
+.zrl-kjqy-sbox-w3{
+	background:#14b086;
+}
+.zrl-kjqy-sbox-w4{
+	background:#7429e3;
+}
+.zrl-kjqy-sbox span{
+	display:block;
+	width:100%;
+	height:100%;
+	line-height:2.2rem;
+	font-size:0.22rem;
+	color:#fff;
+	letter-spacing: 0.05rem;
+}
+.zrl-kjqy-bbox span{
+	display:block;
+	width:100%;
+	height:100%;
+	line-height:2.2rem;
+	font-size:0.22rem;
+	color:#fff;
+	letter-spacing: 0.05rem;
+}
+
+
+/*foot开始*/
+.zrl-footer{
+	padding:0.1rem 0.23rem;
+	width:100%;
+	height:1.2rem;
+		position:absolute;
+			bottom:0;
+			left:0;
+	box-sizing: border-box;
+	background:#fff;
+}
+.zrl-foot{
+	display:block;
+	float:left;
+	margin-top:0.05rem;
+}
+.zrl-footer .zrl-foot-tab1{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../img/index/liimg/zrl-footer1.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	box-shadow:0 0 0.3rem #bbbaba;
+	border-radius:0.1rem;
+	margin-left:0.2rem;
+}
+.zrl-foot-tab2{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../img/index/liimg/zrl-footer2.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab3{
+	width:1.8rem;
+	height:0.9rem;
+	background:url("../../img/index/liimg/zrl-footer3.png") center center no-repeat;
+	background-size:1.6rem 0.85rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab4{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../img/index/liimg/zrl-footer4.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab5{
+	width:0.8rem;
+	height:0.9rem;
+	background:url("../../img/index/liimg/zrl-footer5.png") center center no-repeat;
+	background-size:0.5rem 0.5rem;
+	border-radius:0.1rem;
+	margin-left:0.4rem;
+}
+.zrl-foot-tab5:hover{
+	box-shadow:0 0 0.3rem #bbbaba;
+}
+
+
+/*scroll 代码*/
+.zrl-index-wrap{
+		width:100%;
+		height:100%;
+		position:absolute;
+		top:0;
+		left:0;
+		overflow:hidden;
+}
+.zrl-index-scroll{
+	padding-bottom:1.2rem;
+}

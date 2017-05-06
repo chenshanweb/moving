@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="{CSS_PATH}/bootstrap.min.css" />
+		<link rel="stylesheet" href="{CSS_PATH}/base.css" />
+		<link rel="stylesheet" href="{CSS_PATH}/admin/reg.css" />
+	</head>
+	<body>
+		<div class="admin-form">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="widget">
+							<div class="widget-header">
+								 Login
+							</div>
+							<div class="widget-content">
+								<div class="padd">
+									<form action="index.php?m=admin&f=index&a=check" class="form-horizontal" method="post">
+										<div class="form-group">
+											<lable class="control-label col-lg-3">Username</lable>
+											<div class="col-lg-9">
+												<input type="text" class="form-control" name="aname"/>
+											</div>
+										</div>
+										<div class="form-group">
+											<lable class="control-label col-lg-3">Password</lable>
+											<div class="col-lg-9">
+												<input type="text" class="form-control" name="apass"/>
+											</div>
+										</div>
+										<div class="form-group">	
+											<div class="col-lg-9 col-lg-offset-3">
+												<div class="checkbox">
+													<lable>
+														<input type="checkbox" />
+														<font>
+															<font>记住密码</font>
+														</font>
+													</lable>
+												</div>
+												<br>
+												<input type="submit" class="btn btn-danger" value="Login"/>
+												<input type="reset" class="btn btn-default" value="Reset"/>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="widget-footer">还没注册?<a href="javascript:;">Reg</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

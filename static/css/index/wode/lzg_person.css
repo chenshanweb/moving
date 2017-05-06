@@ -1,0 +1,116 @@
+.lzg_box{
+	width: 100vw;
+	height: 100vh;
+	font-size: 0.3rem;
+}
+
+/*头部*/
+.lzg_header{
+	width: 100%;
+	height: 0.8rem;
+	background: linear-gradient(90deg,#855fe0 0%,#ec38f6 50%);
+}
+.lzg_back{
+	width: 0.5rem;
+	height: 0.5rem;
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.3rem;
+}
+.lzg_back a{
+	float: left;
+}
+.lzg_back img{
+	width: 100%;
+	float: left;
+}
+.lzg_save{
+	float: right;
+	margin-top: 0.15rem;
+	margin-right: 0.3rem;
+}
+.lzg_save span{
+	color: #fff;
+}
+
+/*内容*/
+label{
+	float: left;
+	width: 35%;
+	height: 1rem;
+	line-height: 0.7rem;
+	padding: 0.15rem 0.3rem;
+	box-sizing: border-box;
+	
+}
+form div{
+	width: 100%;
+	height: 1rem;
+	position: relative;
+	padding: 0 0.2rem;
+	box-sizing: border-box;
+	/*border: 1px solid #dfdfdf;*/
+}
+div input{
+	float: right;
+	width: 62%;
+	height: 1rem;
+	border: 0;
+	padding: 0.1rem 0.15rem;
+	padding-left: 0;
+	outline:none;
+	
+}
+form div:after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0.15rem;
+    height: 0.02rem;
+    content: '';
+    transform: scaleY(.5);
+    background-color: #c8c7cc;		    
+}
+div button{
+	margin-top: 0.2rem;
+	margin-left: 2rem;
+}
+div button:nth-child(1){
+	color: #fff;
+	border: 0.1rem solid #007aff;
+	background-color: #007aff;
+	padding: 0.06rem 0.12rem;
+	text-align: center;
+	border-radius: 0.03rem;
+}
+div button:nth-child(2){
+	color: #fff;
+	border: 0.1rem solid #dd524d;
+	background-color: #dd524d;
+	padding: 0.06rem 0.12rem;
+	text-align: center;
+	margin: auto;
+	border-radius: 0.03rem;
+}
+div input[type="radio"]{
+	width: 0.3rem;
+	float: left;
+}
+
+div input[type="date"]{
+	height: 0.8rem;
+}
+.lzg_sex span{
+	display: block;
+	float: left;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+}
+
+div input[type="image"]{
+	width: 1rem;
+	height: 0.8rem;
+	float: left;
+}
+

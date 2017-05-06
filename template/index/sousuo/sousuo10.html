@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="{CSS_PATH}/index/sousuo/sousuo10.css" />
+    <script src="{JS_PATH}/index/sousuo/resize.js"></script>
+    <script src="{JS_PATH}/index/sousuo/zepto.js"></script>
+    <script src="{JS_PATH}/index/sousuo/cir.js"></script>
+    <script src="{JS_PATH}/index/sousuo/sousuo10.js"></script>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});		
+    </script>
+</head>
+<body>
+	<!--header start-->
+	<!--<div class="header">
+		<div class="header_top">
+			<div class="header_top_left"></div>
+			<div class="header_top_word"></div>
+			<div class="header_top_right"></div>
+		</div>
+		<div class="input_input">
+			<input type="text" value="SKIING"/>
+			<div class="input_circle"></div>
+			<div class="input_line"></div>
+			<div class="input_photo"></div>
+		</div>
+		<div class="sorry"></div>		
+	</div>-->
+	<header>
+		<div class="czl_header_top"></div>
+		<div class="czl_header_center">
+			<a href="javascript:;" class="circle"></a>
+			<a href="javascript:;" class="img"></a>
+			<a href="javascript:;" class="arrows"></a>
+		</div>
+		
+		<div class="czl_input">
+			<input type="text" value="Search for..."/>
+				<div class="circle"></div>
+				<div class="right">
+				<div class="line"></div>
+				<div class="sousuo iconfont">&#xe601;</div>
+			</div>
+		</div>
+		
+		<div class="czl_header_bottom">
+			<img src="{IMG_PATH}/index/sousuo/imgchu/header11_03.png" />
+		</div>
+	</header>
+	<!--header end-->
+	<!--猜你喜欢 start-->
+	<div class="czl_guess"><img src="{IMG_PATH}/index/sousuo/imgchu/guess_03.png"></div>
+	<!--猜你喜欢 end-->
+	<!--专业划分 start-->
+	<div class="zhuanye">
+		<div class="zhuanyetop"><img src="{IMG_PATH}/index/sousuo/imgchu/专题_03.png"></div>
+		<ul class="zhuanyebot">
+			<li>直播</li>
+			<li>视频</li>
+			<li>跑步</li>
+			<li>美食</li>
+			<li>资讯</li>
+			<li>···</li>
+		</ul>
+	</div>
+	<!--专业划分 end-->
+	<!--热门 start-->
+	<div class="hot">
+		<div class="hottop"><img src="{IMG_PATH}/index/sousuo/imgchu/热门_03.png"></div>
+		<ul class="hot_user">
+			<li>
+				<div class="hot_user_touxiang">
+					<div class="touxiang3"></div>
+					<div class="touxiang2"></div>
+					<div class="touxiang1">
+						<img src="{IMG_PATH}/index/sousuo/imgchu/touxiangnan_03.png" />
+					</div>
+				</div>
+				<div class="hot_user_xinxi">
+					<div class="hot_user_xinxi_left">
+						<div class="hot_user_xinxi_left_top">
+							<div class="hot_user_xinxi_left_top_word"><span>SKI</span>&nbsp;JUMP&HOTING</div>
+							<div class="hot_user_xinxi_left_top_anniu">new</div>
+						</div>
+						<div class="hot_user_xinxi_left_bot">
+							<div class="hot_user_xinxi_left_bot_line">
+								<img src="{IMG_PATH}/index/sousuo/imgchu/midline_03.png" />
+							</div>
+							<div class="hot_user_xinxi_left_bot_user">
+								<div class="hot_user_xinxi_left_bot_user_left">
+									<div class="hot_user_xinxi_left_bot_user_left_tuquan">
+										<img src="{IMG_PATH}/index/sousuo/imgchu/tou1_03.png" />
+									</div>
+								</div>
+								<div class="hot_user_xinxi_left_bot_user_right">
+									<div class="hot_user_xinxi_left_bot_user_right_top">Anne.Green</div>
+									<div class="hot_user_xinxi_left_bot_user_right_bot">
+										<img src="{IMG_PATH}/index/sousuo/imgchu/dingwei_03.png">
+										&nbsp;<span>16:23</span>&nbsp;3.8
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hot_user_xinxi_right">
+						<!--<img src="img/images/jiazaiquan_03.png" />
+						<div class="bili">80</div>-->
+						<div class="hu_cir" >
+							<canvas></canvas>
+						</div>
+						<!--<div class="hu_cir" >
+							<canvas></canvas>
+						</div>-->
+					</div>
+					
+				</div>
+			</li>
+			<li>
+				<div class="hot_user_touxiang">
+					<div class="touxiang3"></div>
+					<div class="touxiang2"></div>
+					<div class="touxiang1">
+						<img src="{IMG_PATH}/index/sousuo/imgchu/touxiangnv_03.png" />
+					</div>
+				</div>
+				<div class="hot_user_xinxi">
+					<div class="hot_user_xinxi_left">
+						<div class="hot_user_xinxi_left_top">
+							<div class="hot_user_xinxi_left_top_word"><span>T</span>&nbsp;SPORING&HOTING</div>
+							<div class="hot_user_xinxi_left_top_anniu">new</div>
+						</div>
+						<div class="hot_user_xinxi_left_bot">
+							<div class="hot_user_xinxi_left_bot_line">
+								<img src="{IMG_PATH}/index/sousuo/imgchu/midline_03.png" />
+							</div>
+							<div class="hot_user_xinxi_left_bot_user">
+								<div class="hot_user_xinxi_left_bot_user_left">
+									<div class="hot_user_xinxi_left_bot_user_left_tuquan">
+										<img src="{IMG_PATH}/index/sousuo/imgchu/xiaotouxiang_03.png" />
+									</div>
+								</div>
+								<div class="hot_user_xinxi_left_bot_user_right">
+									<div class="hot_user_xinxi_left_bot_user_right_top">Slina</div>
+									<div class="hot_user_xinxi_left_bot_user_right_bot">
+										<img src="{IMG_PATH}/index/sousuo/imgchu/dingwei_03.png">
+										&nbsp;<span>17:40</span>&nbsp;11.9
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hot_user_xinxi_right">
+						<!--<img src="img/images/jiazaiquan_03.png" />
+						<div class="bili">60</div>-->
+						<div class="hu_cir" >
+							<canvas></canvas>
+						</div>
+						<!--<div class="hu_cir" >
+							<canvas></canvas>
+						</div>-->
+					</div>
+					
+				</div>
+			</li>
+		</ul>
+		<div class="hot_foottu">
+			<div class="hot_foottu_box">
+				<div class="hot_foottu_box_left">
+					<div>DESIGN CHANGE OUR LIFE</div>
+					<div>change the world</div>
+					<div class="heng"></div>
+					<div>运动×成就梦想</div>
+				</div>
+				<a href=""><div class="hot_foottu_box_right">more</div></a>
+			</div>
+		</div>
+	</div>
+	<!--热门 end-->
+	<!--jinquan start-->
+	<div class="jianquanbox">
+		<div class="czl_daini">
+			<div class="czl_centre">
+				<div class="czl_dtop">
+					<div class="left">
+						<div class="leftimg"><img src="{IMG_PATH}/index/sousuo/imgchu/tou1_03.png"></div>
+					</div>
+					<div class="center">
+						<div class="jimtop">
+							<span>Jim.Green</span>
+							<span></span>
+							<span></span>
+						</div>
+						<span class="jimbottom">思念是一种很玄的东西在心底</span>
+					</div>
+					<div class="right">
+						<span></span>
+						<span>15:20</span>
+					</div>
+				</div>
+				<div class="czl_dcenter">
+					<div class="tp"></div>
+					<div class="yinyin"></div>
+					<div class="yinyin2"></div>
+					<div class="ykzm">
+						<span>愉快的周末生活</span>
+						<span></span>
+						<a href=""></a>
+					</div>
+					<div class="line"></div>
+					<div class="hkx">很开心你能来 不遗憾你走开 反正下一个都会来...</div>
+				</div>
+				<div class="czl_dbottom">
+					<div class="center">
+						<div class="dzleft">
+							<div class="alerdy" style="display: block;">
+								<div class="circle">+</div>
+								<div class="cright">
+									添加关注
+								</div>
+							</div>
+							<div class="alerdy1">
+								<div class="circle">√</div>
+								<div class="cright">
+									已经关注
+								</div>
+							</div>
+						</div>
+						<div class="dzcenter">
+							<div class="circlebox">
+								<div><img src="{IMG_PATH}/index/sousuo/imgchu/touxiangnv_03.png"></div>
+								<div><img src="{IMG_PATH}/index/sousuo/imgchu/touxiangnv_03.png"></div>
+								<div><img src="{IMG_PATH}/index/sousuo/imgchu/touxiangnv_03.png"></div>
+							</div>
+						</div>
+						<div class="dzright">
+							<a href="" class="xbj1"></a>
+							<a href="" class="xbj2"></a>
+							<a href="" class="xbj3">
+								<div></div>
+								<div></div>
+								<div></div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!--jinquan end-->
+	<!--footer start-->
+	<div class="footer">
+		<img src="{IMG_PATH}/index/sousuo/imgchu/footer_03.png" />
+	</div>
+	<!--footer end-->
+</body>
+<script>
+		var canvas=$("canvas").eq(0);
+	
+		var width=Math.floor($(".hu_cir").width()-1);
+		
+		var x=width/2;
+		var r=x-2;
+		drawcir(canvas,width,width,2,"#fff",x,x,r,"#000",80,12,"#000");
+		var canvas=$("canvas").eq(1);
+		drawcir(canvas,width,width,2,"#fff",x,x,r,"#000",20,12,"#000");
+</script>
+</html>

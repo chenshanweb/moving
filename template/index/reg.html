@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="{CSS_PATH}/index/reg.css" />
+		<script src="{JS_PATH}/jquery.min.js"></script>
+	    <script src="{JS_PATH}/jquery.validate.js"></script>
+	    <script src="{JS_PATH}/jquery.metadata.js"></script>
+	    <script src="{JS_PATH}/index/reg.js"></script>
+	</head>
+	<body>
+		<div class="hu_cir">
+			<div class="hu_xcir">
+				<div class="hu_xxcir">
+				</div>
+			</div>
+		</div>
+		<form action="index.php?m=index&f=login&a=addReg" id="myform" method="post"> 
+			<div class="hu_ding"></div>
+			<div class="hu_tishi">
+				<label id="uname-error" class="error" for="uname"></label>
+		        <label id="upass-error" class="error" for="upass"></label>
+		        <label id="upass2-error" class="error" for="upass2"></label>
+			</div>
+			<div class="hu_box">
+				<div class="hu_left">
+					<div></div>
+					<div></div>
+				</div>
+				<div class="hu_right">
+					<span>用户名</span>
+					<span>Username</span>
+				</div>
+				<!--<div class="hu_quan">
+					<div class="hu_xquan"></div>
+				</div>-->
+				<input type="text" name="uname" autocomplete="off" class="hu_text">
+			</div>
+			
+			<div class="hu_box">
+				<div class="hu_left">
+					<div></div>
+					<div></div>
+				</div>
+				<div class="hu_right">
+					<span>密码</span>
+					<span>Password</span>
+				</div>
+				<!--<div class="hu_quan">
+					<div class="hu_xquan"></div>
+				</div>-->
+				<input type="text" name="upass" autocomplete="off" class="hu_text" id="upass">
+			</div>
+			
+			<div class="hu_box">
+				<div class="hu_left">
+					<div></div>
+					<div></div>
+				</div>
+				<div class="hu_right">
+					<span>再次输入密码</span>
+					<span>Password</span>
+				</div>
+				<!--<div class="hu_quan">
+					<div class="hu_xquan"></div>
+				</div>-->
+				<input type="text" name="upass2" autocomplete="off" class="hu_text">
+			</div>
+			
+			
+			<input type="submit" value="注册" class="hu_dl">
+		</form>
+		<div class="hu_dibu"><span>已有帐号？</span><a href="index.php?m=index&f=login&a=init">登录moving帐号</a></div>
+	</body>
+	<script src="{JS_PATH}/zepto.js"></script>
+	<script>
+	window.onload=function(){
+		function size(originwidth){
+			var width=document.documentElement.clientHeight;
+			var bili=width/originwidth*100+"px";
+			$("html").css("font-size",bili);
+		}
+		size(1334);
+	}
+	</script>
+</html>

@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	letter-spacing:0.02rem;
+}
+/*01*/
+.hu_xw1{
+	width: 100%;
+	text-align: center;
+	font-size: 0.7rem;
+	margin-top:2rem ;
+}
+.hu_xw{
+	width: 100%;
+	text-align: center;
+	font-size: 0.7rem;
+	margin-top:1rem ;
+}
+.hu_nr{
+	text-align: center;
+	margin-top:0.15rem ;
+	font-size: 0.4rem;
+	color: #6E6E6E;
+	box-sizing: border-box;
+	padding: 0 0.23rem;
+}
+.hu_input{
+	display: block;
+	margin: 0.77rem auto;
+	width: 2.85rem;
+	height: 1.03rem;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	font-size: 0.12rem;
+	
+}
+
+/*01 end*/
+
+
+
+/*03*/
+.hu_jx{
+	width: 5.7rem;height: 1rem;
+	margin: 0 auto;
+	border-radius:0.5rem ;
+	background:linear-gradient(90deg,#F758F9 0%,#C070FB 50%,#C070FB 70%,#C070FB);
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.5rem;
+	margin-top: 1.6rem;
+}

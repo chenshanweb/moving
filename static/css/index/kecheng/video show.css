@@ -1,0 +1,425 @@
+body{
+	background: #f4f4f4;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../../../font/kecheng/iconfont.eot');
+  src: url('../../../font/kecheng/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../font/kecheng/iconfont.woff') format('woff'),
+  url('../../../font/kecheng/iconfont.ttf') format('truetype'),
+  url('../../../font/kecheng/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*header*/
+header{
+	width:100%;height:4.72rem;
+	padding:0 0.23rem;
+	background:url(../../../img/index/kecheng/video.png) no-repeat;
+	background-size:100%;
+}
+header .top{
+	width:100%;height:0.3rem;
+}
+header .htitle{
+	width:100%;height:1.12rem;
+	margin-top:0.23rem;
+	position:relative;
+}
+header .htitle a:nth-child(1){
+	display: block;
+	float:left;
+	width:0.45rem;height:0.45rem;
+	border-radius:50%;
+	background:url(../../../img/index/kecheng/circle_03.png) no-repeat;
+	background-size:100%;
+}
+header .htitle a:nth-child(2){
+	display: block;
+	float:right;
+	width:0.34rem;height:0.34rem;
+	background: url(../../../img/index/kecheng/videolink.png) no-repeat;
+	background-size:100%;
+}
+.private{
+	width:3.75rem;height:0.42rem;
+	position:absolute;
+	top:0.31rem;left:0;right:0;
+	font-weight:bold;
+	margin:auto;
+	font-size: 0.46rem;
+	color:#fff;
+}
+.ndsrjl{
+	width:1.8rem;height:0.3rem;
+	position:absolute;
+	top:0.82rem;left:0;right:0;
+	margin:auto;
+	font-size:0.28rem;
+	color:#fff;
+}
+
+
+/*私人教练下边视频块*/
+.tf_sphb{
+	/*width:6.58rem;*/
+	width:100%;
+	height:4.62rem;
+	border:0.01rem solid #000;
+	background:url(../../../img/index/kecheng/shipin.png) no-repeat;
+	background-size:100%;
+	margin:auto;
+	margin-top:-2.8rem;
+	box-shadow: 0 5px 0.3rem #ccc;
+	position:relative;
+}
+.tf_sphb .vipk{
+	width:0.67rem;height:0.44rem;
+	position:absolute;
+	top:-0.15rem;left:0.5rem;
+	background:url(../../../img/index/kecheng/vipk_03.png) no-repeat;
+	background-size:100%;
+}
+
+
+/*积分模块*/
+.tf_chan{
+	width:6.58rem;height:3.85rem;
+	margin:auto;
+	margin-top:0.2rem;
+	border-bottom:0.02rem solid #ccc;
+}
+.tf_chan .nkew{
+	width:100%;
+	font-size: 0.38rem;
+	font-weight: bold;
+}
+.tf_chan .artsta{
+	width:100%;
+	font-size: 0.38rem;
+	font-weight: bold;
+}
+.tf_chan .xinxin{
+	width:100%;height:0.3rem;
+	margin-top:0.1rem;
+}
+.tf_chan .xinxin div{
+	width:0.26rem;height:0.26rem;
+	float:left;
+	background: url(../../../img/index/kecheng/sxxin.png) no-repeat;
+	background-size:100%;
+}
+.tf_chan .xinxin div:nth-child(10){
+	width:0.26rem;height:0.26rem;
+	float:left;
+	background: url(../../../img/index/kecheng/kxxin.png) no-repeat;
+	background-size:100%;
+}
+.tf_chan .xinxin div:nth-child(11){
+	width:0.77rem;height:0.23rem;
+	margin-top:0.03rem;
+	float:left;
+	background: url(../../../img/index/kecheng/90vol.png) no-repeat;
+	background-size:100%;
+	margin-left:0.2rem;
+}
+.jifen{
+	width:100%;height:0.5rem;
+	margin-top:0.3em;
+}
+.jifen div:nth-child(1){
+	width:1.35rem;height:100%;
+	line-height:0.5rem;
+	font-size:0.64rem;
+	float:left;
+	font-weight: bold;
+	color:#7f24e6;
+}
+/*.jifen div:nth-child(2){
+	width:0.8rem;height:0.32rem;
+	background:#7f24e6;
+	font-size:0.64rem;
+	float:left;
+	font-size:0.3rem;
+	color:#fff;
+	margin-top:0.18rem;
+	border-radius:0.15rem;
+	text-align: center;
+}*/
+.anna{
+	width:100%;height:1.09rem;
+	margin-top:0.38rem;
+}
+.anna .left{
+	width:1.11rem;height:1.08rem;
+	background:url(../../../img/index/kecheng/jftouxiang.png) no-repeat;
+	background-size:100%;
+	float:left;
+}
+.anna .right{
+	width:3rem;height:1.09rem;
+	float:left;
+	margin-left:0.26rem;
+}
+.anna .right div:nth-child(1){
+	margin-top:0.37rem;
+	width:100%;height:0.22;
+	font-size:0.3rem;
+}
+.anna .right div:nth-child(2){
+	width:100%;height:0.22;
+	font-size:0.3rem;
+}
+
+
+/*选集模块*/
+.tf_hymf{
+	margin-top:0.2rem;
+	width:100%;height:6.6rem;
+	padding:0 0.23rem;
+}
+.tf_hymf .center{
+	width:100%;height:6.6rem;
+	
+	border-bottom:0.02rem solid #ccc;
+}
+.topwz{
+	width:100%;height:1.2rem;
+	padding-top:0.3rem;
+	padding:0 0.2rem;
+	font-size:0.26rem;
+	color:#989ca1;
+}
+.xxia{
+	width:100%;height:0.5rem;
+	padding:0 0.2rem;
+}
+.xjt{
+	width:0.24rem;height:0.24rem;
+	position:relative;
+}
+.xjt div{
+	width:100%;height:100%;
+	font-size:0.4rem;
+	text-align: center;
+	line-height: 0.24rem;
+}
+.xjt div:nth-child(1){
+	color:#acacac;
+}
+.xjt div:nth-child(2){
+	color:#d7d7d7;
+	position:absolute;
+	top:0.1rem;left:0;
+}
+
+
+.xuanji{
+	width:100%;height:3.38rem;
+	padding:0 0.2rem;
+}
+.xuanji ul{
+	width:100%;height:100%;
+}
+.xuanji ul li:nth-child(1){
+	background-image: url(../../../img/index/kecheng/czl11_03.png);
+	margin-top:0.28rem;
+}
+.xuanji ul li{
+	width: 1.84rem;
+    height: 0.75rem;
+    margin-top: 0.32rem;
+    margin-right: 0.2rem;
+    background-image: url(../../../img/index/kecheng/wxjx_03.png);
+    float: left;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.3rem;
+    color: deepskyblue;
+    position:relative;
+}
+.xuanji ul li a{
+	display: block;
+	width:100%;height:100%;
+	 color: deepskyblue;
+}
+.xuanji ul li div{
+	width:0.65rem;height:0.44rem;
+	position:absolute;
+	top:0;left:0.97rem;
+	background:url(../../../img/index/kecheng/xjvip_03.png) no-repeat;
+	background-size:100%;
+	display: none;
+}
+
+
+.ktvip{
+	display: block;
+	width:100%;height:0.78rem;
+	padding-top:0.18rem;
+	background:linear-gradient(90deg,#855fe0 0%,#ed38f6 100%)
+}
+.ktvip .dwz{
+	font-size:0.28rem;
+	text-align: center;
+	color:#fff;
+}
+.ktvip .xwz{
+	font-size:0.18rem;
+	text-align: center;
+	color:#fff;
+	-webkit-transform:scale(0.9)
+}
+.xshang{
+	width:100%;height:0.74rem;
+	padding:0.2rem 0 0;
+}
+.xjt2{
+	width:0.24rem;height:0.24rem;
+	position:relative;
+}
+.xjt2 div{
+	width:100%;height:100%;
+	font-size:0.4rem;
+	text-align: center;
+	line-height: 0.24rem;
+}
+.xjt2 div:nth-child(1){
+	color:#d7d7d7;
+}
+.xjt2 div:nth-child(2){
+	color:#acacac;
+	position:absolute;
+	top:0.1rem;left:0;
+}
+
+
+
+/*评论专区logo*/
+.pl{
+	width:100%;height:1.6rem;
+	padding:0.25rem 0.23rem 0;
+}
+.pl div:nth-child(1){
+	width:100%;height:auto;
+	font-size:0.28rem;
+	color:#1f7bf2;
+	font-weight: bold;
+}
+.pl div:nth-child(2){
+	width:100%;height:auto;
+	font-size:0.3rem;
+	color:#1f7bf2;
+	font-weight: bold;
+}
+
+/*评论模块*/
+.tf_plmk{
+	width:100%;height:auto;
+	padding:0 0.23rem;
+	margin-bottom:0.19rem;
+}
+.plmk_jim{
+	width:100%;height:1.57rem;
+	padding-top:0.23rem;
+	box-shadow: 0 0 0.5rem #ccc;
+	border-radius:0.05rem;
+	background: #fff;
+}
+.plmk_jim .top{
+	width:100%;height:0.8rem;
+}
+.plmk_jim .top .touxiang{
+	width:1.08rem;height:100%;
+	float:left;
+}
+.plmk_jim .top .touxiang img{
+	float:left;
+	width:100%;
+}
+.plmk_jim .top .right{
+	width:5.55rem;height:100%;
+	float:left;
+}
+.plmk_jim .top .right .jim{
+	width:100%;height:0.3rem;
+	font-size:0.3rem;
+}
+.plmk_jim .top .right .jim span:nth-child(1){
+	font-weight:bold;
+}
+.plmk_jim .top .right .shipin{
+	width:100%;height:0.5rem;
+	font-size:0.2rem;
+}
+.plmk_jim .bottom{
+	width:100%;height:0.54rem;
+	padding:0.2rem 0.3rem 0 1.08rem;
+}
+.plmk_jim .bottom .left{
+	width:1rem;height:100%;
+	float:left;
+}
+.plmk_jim .bottom .left span{
+	display: inline-block;
+	float:left;
+	/*margin-left:0.05rem;*/
+	margin-right:0.18rem;
+	width:0.18rem;height:0.18rem;
+	font-size:0.18rem;
+}
+.plmk_jim .bottom .left span:nth-child(1){
+	margin-left:0;
+	/*margin-top:0.08rem;*/
+	background: url(../../../img/index/kecheng/clock.png) no-repeat;
+	background-size:100%;
+	margin-right:0.1rem
+}
+.plmk_jim .bottom .left span:nth-child(2){
+	font-weight: bold;
+}
+.plmk_jim .bottom .right{
+	width:4.5rem;height:100%;
+	float:right;
+}
+.plmk_jim .bottom .right span{
+	display: block;
+	float:right;
+	font-size:0.18rem;
+}
+.plmk_jim .bottom .right span:nth-child(6){
+	width:0.26rem;height:0.23rem;
+	/*margin-top:0.05rem;*/
+	background: url(../../../img/index/kecheng/dianzan.png) no-repeat;
+	background-size:100%;
+	
+}
+.plmk_jim .bottom .right span:nth-child(3){
+	width:0.26rem;height:0.23rem;
+	/*margin-top:0.05rem;*/
+	background: url(../../../img/index/kecheng/huifu.png) no-repeat;
+	background-size:100%;
+	
+}
+
+/*底部*/
+footer{
+	width:100%;height:0.88rem;
+	background:linear-gradient(90deg,#E45BD0 0%,#9DA5FF 100%);
+	margin-top:0.46rem;
+	position:relative;
+}
+footer a{
+	width:0.41rem;height:0.41rem;
+	position:absolute;
+	top:0;left:0;right:0;bottom:0;
+	margin:auto;
+	background: url(../../../img/index/kecheng/pinglunanniu_07.png);
+	background-size:100%;
+}

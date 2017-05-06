@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>		
+		<link rel="stylesheet" href="{CSS_PATH}/index/add.css" />	
+		<script src="{JS_PATH}/index/resize.js"></script>
+		<script src="{JS_PATH}/zepto.js"></script>
+		<script src="{JS_PATH}/touch.js"></script>
+		<script src="{JS_PATH}/index/iscroll-probe(1).js"></script>
+	</head>
+	<body>
+	<div class="czl-index-wrap">	
+		<div class="czl-index-scroll">
+			<div class="header">
+				<a class="header_left" href="index.php?m=index&f=index">取消</a>
+				<a class="header_mid" href="index.php?m=index&f=index">
+					<div class="header_mid_top">发布信息</div>
+					<div class="header_mid_bot">醉醉醉丶醉生梦死</div>
+				</a>
+				<div class="header_right">发表</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="iconfont">&#xe600;</div>
+			<div class="iconfont">&#xe7ab;</div>
+			<div class="iconfont">&#xe784;</div>
+			<div class="iconfont">&#xe688;</div>
+			<div class="iconfont">&#xe748;</div>
+		</div>
+		
+	</div>
+	</body>
+	<script type="text/javascript">
+		window.onload=function(){
+			var myScroll = new IScroll('.czl-index-wrap',{
+				  mouseWheel: true,
+				  scrollbars: true,
+				  probeType: 3
+			});
+			
+  
+		}
+	</script>
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	
+</head>
+<style>
+	form{
+		width:300px;
+		height: 300px;
+		margin: auto;
+		line-height: 30px;
+	}
+	.showcon{
+		width:200px;
+		height:200px;
+		position: relative;
+		border: 1px solid #000;
+	}
+	img{
+		width: 100%;
+		height:180px;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	div.press{
+		width:0%;
+		height: 20px;
+		position: absolute;
+		left: 0;
+		top: 180px;
+		background: aqua;
+		line-height: 20px;
+		color: cadetblue;
+		text-align: center;
+	}
+</style>
+<body>
+	<form action="index.php?m=admin&f=category&a=update" method="post">
+		上级栏目：<select name="pid" >
+					<option value="0">一级导航</option>
+					{$re}
+				</select><br>
+		修改分类：<input type="text" name="cname" value="{$ree['scname']}"/>
+		<input type="hidden" name="cid" id="" value="{$id}" />
+		<input type="submit" value="提交" />
+	</form>
+</body>
+</html>

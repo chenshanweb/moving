@@ -1,0 +1,360 @@
+html,body{
+	background: #1a2736;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../../../font/kecheng2/iconfont.eot');
+  src: url('../../../font/kecheng2/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../font/kecheng2/iconfont.woff') format('woff'),
+  url('../../../font/kecheng2/iconfont.ttf') format('truetype'),
+  url('../../../font/kecheng2/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*顶部开始*/
+.hyx-bn{
+	width:100%;
+	height: 1.99rem;
+	background: url("../../../img/index/kecheng/hyxbn_03.png") no-repeat;
+	background-size: 100%;
+	padding-top: 0.79rem;
+	position:relative;
+}
+.hyx-lianxi{
+	padding-left:0.23rem;
+	padding-right:0.23rem;	
+	height: 0.41rem;
+	
+}
+.hyx-cir{
+	display: block;
+	width:0.41rem;
+	height: 100%;
+	margin-left: 0.03rem;
+	float: left;
+}
+.hyx-cir img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hyx-lian{
+	margin-left: 1.8rem;
+	width: 3rem;
+	height: 100%;
+	float: left;
+	margin-top: -0.08rem;
+}
+.hyx-lian span:nth-child(1){
+	display: block;
+	width: 2.5rem;
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+}
+.hyx-lian span:nth-child(2){
+	width: 2.5rem;
+	display: block;
+	color: #fff;
+	margin-right:1rem;
+	font-size: 0.16rem;
+	text-align: center;
+}
+.hyxright{
+	width:0.81rem;height:0.45rem;
+	float:right;
+	background: url("../../../img/index/kecheng/arrows_05.png");
+	background-size:100%;
+}
+
+.tf_input{
+	float:left;
+	width:100%;height:0.7rem;
+	padding:0 0.23rem;
+	position:absolute;
+	bottom:-0.4rem;left:0;
+}
+.tf_input .circle{
+	width:0.1rem;height:0.1rem;
+	background:blue;
+	border-radius:50%;
+	position:absolute;
+	top:0.3rem;left:0.5rem;
+	z-index: 10;
+}
+.tf_input .right{
+	width:0.9rem;height:100%;
+	position:absolute;
+	top:0;right:0;
+}
+.tf_input .right .sousuo{
+	width:0.54rem;height:100%;
+	float:left;
+	position:relative;
+	font-size:0.3rem;
+	text-align: center;
+	line-height: 0.8rem;
+	/*background:url(../img/sousuo_07.png) no-repeat;*/
+	background-size:100%;
+	background-position:0 0.15rem;
+}
+.tf_input input{
+	width:100%;height:100%;
+	float:left;
+	font-size:0.25rem;
+	padding:0.05rem 0.22rem 0 0.5rem;
+	background: #fff;
+	color:#000;
+	border-radius:0.1rem;
+	border:0;
+}
+/*顶部结束*/
+/*搜索按钮开始*/
+.tf_anniu{
+	width:100%;height:1.67rem;
+	padding:0.77rem 0.23rem 0 0;
+}
+.anbox{
+	float:left;
+	width:1.19rem;height:0.51rem;
+	margin-left:0.23rem;
+	border-radius:0.1rem;
+	position:relative;
+}
+.beiyin{
+	width:1rem;height:0.4rem;
+	background: blue;
+	border-radius:0.1rem;
+	position:absolute;
+	bottom:-0.06rem;left:0.09rem;
+}
+.anbox a{
+	width:100%;height:100%;
+	background:#fff;
+	display: block;
+	color:#4D69CB;
+	border-radius:0.1rem;
+	position:relative;
+	z-index: 10;
+	font-size:0.28rem;
+	text-align: center;
+	line-height: 0.51rem;
+}
+.anbox a div{
+	width:0.08rem;height:0.08rem;
+	border-radius:50%;
+	background: blue;
+	position:absolute;
+}
+.anbox a .top{
+	left:0.07rem;top:0.05rem;
+}
+.anbox a .right{
+	right:0.07rem;top:0.05rem;
+}
+.anbox a .bottom{
+	right:0.07rem;bottom:0.05rem;
+}
+.anbox a .left{
+	left:0.07rem;bottom:0.05rem;
+}
+/*搜索按钮结束*/
+/*内容开始*/
+.hyx-con{
+	/*margin-top: 0.4rem;*/
+	width:100%;
+	height: 4.5rem;
+	background: url("../../../img/index/kecheng/hyx5.png") no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.hyx-zhezhao1{
+	width: 100%;
+	height: 1.1rem;
+	background: rgba(87,101,106,0.8);
+}
+.hyx-zhenei{
+	padding-left:0.23rem;
+	padding-right:0.23rem;
+}
+.hyx-neileft{
+	width:1.23rem;
+	height: 1.5rem;
+	background: url("../../../img/index/kecheng/hyx-biao.png") no-repeat;
+	background-size: 100%;
+	/*background-position: 0 -0.03rem;*/
+	float: left;
+	position: relative;
+}
+.hyx-neileft>span{
+	display: block;
+	width:0.68rem;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	margin-left: 0.23rem;
+	margin-top: 0.06rem;
+	color:#756b80;
+	-webkit-transform: scale(0.7);
+}
+.hyx-neileft>img{
+	width:0.78rem;
+	height: 0.78rem;
+	position: absolute;
+	left:0.28rem;
+	top:0.45rem;
+	background: #f00;
+	border-radius: 50%;
+}
+.hyx-center{
+	width: 4rem;
+	height: 0.75rem;
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.18rem;
+}
+.hyx-center span:nth-child(1){
+	display: block;
+	font-size: 0.16rem;
+	color:#a83bf3;
+}
+.hyx-center span:nth-child(2){
+	display: block;
+	font-size: 0.16rem;
+	color:#a6a7a7;
+}
+.hyx-wujiao{
+	height: 0.17rem;
+}
+.hyx-wujiao img{
+	width:0.18rem;
+	height: 100%;
+	display: block;
+	float: left;
+	float: left;
+	margin-right: 0.05rem;
+}
+.hyx-sp{
+	display: block;
+	width:0.84rem;
+	height: 0.84rem;
+	position: absolute;
+	left:45%;
+	top:35%;
+}
+.hyx-sp img{
+	width:100%;
+	height: 100%;
+}
+.hyx-right{
+	margin-top: 0.15rem;
+	width: 1.22rem;
+	height: 0.69rem;
+	float: right;
+	background: url("../../../img/index/kecheng/hyx1.png") no-repeat;
+	background-size: 100%;
+}
+.hyx-right img{
+	display: block;
+	width:0.45rem;
+	height: 0.41rem;
+	margin-left: 0.36rem;
+	margin-top: 0.13rem;
+}
+.hyx-zhezhao2{
+	width:100%;
+	height: 1.44rem;
+	background:rgba(148,52,210,0.8);
+	margin-top:1.97rem;
+}
+.hyx-zhe2{
+	padding-left:0.23rem;
+	padding-right:0.23rem;
+	padding-top: 0.34rem;
+	
+}
+.hyx-zhe2>span:nth-child(1){
+	display: block;
+	font-size: 0.28rem;
+	color:#f8f8f8;
+}
+.hyx-zhe2>span:nth-child(2){
+	display: block;
+	font-size: 0.1rem;
+	color:#dcbeed;
+}
+.box-hyx{
+	height: 0.52rem;
+	/*background: #0ff;*/
+}
+.hyx-pre{
+	width:5.08rem;
+	height: 0.1rem;
+	background: #d99fe9;
+	opacity: 0.5;
+	border-radius: 0.15rem;
+	margin-top: 0.05rem;
+	position: relative;
+	
+}
+.hyx-pregress{
+	position: absolute;
+	left: 0;;
+	top: 0;
+	width:3.83rem;
+	height: 0.1rem;
+	border-radius: 0.15rem;
+	background: -webkit-linear-gradient(left, #305af5 , #45f9f6);
+}
+.box-left{
+	height: 100%;
+	float: left;	
+}
+.box-right{
+	margin-top: -0.1rem;
+	float: left;
+	font-size: 0.16rem;
+	color:#f8f8f8;
+}
+.box-right>span{
+	color:#f00;
+}
+/*2*/
+.hyx-con1{
+	margin-top:0.4rem;
+	background: url("../../../img/index/kecheng/hyxtb.png") no-repeat;
+	background-size: 100%;
+}
+.hyx-center>span.hyxspan1{
+	color:#364af8;
+}
+.hyx-right1{
+	background: url("../../../img/index/kecheng/hyx2.png") no-repeat;
+	background-size: 100%;
+}
+.hyx-zhezhao22{
+	background: rgba(48,61,176,0.8);
+}
+/*2*/
+.hyx-con2{
+	margin-top:0.4rem;
+	background: url("../../../img/index/kecheng/hyxpapa.png") no-repeat;
+	background-size: 100%;
+	background-position: 0;
+}
+.hyx-center>span.hyxspan2{
+	color:#25995a;
+}
+.hyx-right2{
+	background: url("../../../img/index/kecheng/hyxlvse.png") no-repeat;
+	background-size: 100%;
+	
+}
+.hyx-zhezhao23{
+	background: rgba(73,175,108,0.8);
+}
+/*内容结束*/

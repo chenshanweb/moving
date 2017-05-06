@@ -1,0 +1,207 @@
+body{
+	font-size: 0.3rem;
+}
+/*背景容器*/
+.lzg_box{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background:url(../img/lzg_bg.png) no-repeat center;
+	background-size: 100vw 100vh;
+	position: relative;
+}
+
+/*内容容器*/
+.lzg_content_box{
+	width: 7.5rem;
+	/*height: 10.27rem;*/
+	background: #fff;
+	position: absolute;
+	left: 0;right: 0;
+	top:2.88rem;
+}
+.lzg_content{
+	width: 100%;
+	height: 100%;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+}
+
+
+/*美食筛选*/
+
+.lzg_food_title{
+	height: 1.05rem;
+	border-bottom: 2px solid #dfdfdf;
+}
+.lzg_food_title div:nth-child(1){
+	font-size: 0.28rem;
+	color: #1f7bf2;
+	margin-top: 0.34rem;
+	font-weight: bold;
+}
+.lzg_food_title div:nth-child(2){
+	font-size: 0.30rem;
+	color: #1f7bf2;
+	font-weight: 700;
+}
+.lzg_food_con{
+	width: 6.9rem;
+	height: 2.2rem;
+	margin-top: 0.25rem;
+	box-shadow: 0 0 0.1rem #ccc;
+	display: flex;
+	justify-content: flex-start;
+}
+.lzg_person_box{
+	width: 1.7rem;
+	height: 2.2rem;
+	padding: 0.28rem 0;
+}
+.lzg_touxiang{
+	margin: auto;
+	width: 0.92rem;
+	height: 0.92rem;
+}
+.lzg_touxiang img{
+	width: 100%;
+}
+.lzg_name{
+	margin: auto;	
+	padding-left: 0.3rem;	
+	margin-top: .1rem;
+}
+.lzg_name p{
+	font-size: 0.25rem;
+	color: #787676;
+}
+.lzg_person_box div:nth-child(1){
+	width: 0.08rem;
+	height: 1.3rem;
+	border-radius: 0.05rem;
+	background: #8119ca;
+	float: left;
+	margin-top: -0.2rem;
+	margin-left: 0.05rem;
+}
+.lzg_person_box div:nth-child(1) p{
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 0.05rem;
+	background: #8119ca;
+	float: left;
+	margin-top: 1.35rem;
+}
+.lzg_text_box{
+	width: 2.5rem;
+	height: 2.2rem;
+	padding: 0.3rem 0;
+	margin-left: 0.2rem;
+}
+.lzg_text_box h2{
+	font-size: 0.27rem;
+	color: #787676;
+}
+.lzg_text_box p{
+	font-size: 0.21rem;
+	color: #7f7e7e;
+}
+.lzg_text_box h3{
+	font-size: 0.24rem;
+	color: #929292;
+}
+.lzg_text_box img{
+	margin-top: .1rem;
+	width: 65%;
+}
+.lzg_text_box span:nth-child(5){
+	margin-top: 0.38rem;
+	font-size: 0.16rem;
+	color: #929292;
+	float: right;
+}
+.lzg_text_box span:nth-child(6){
+	margin-top: 0.32rem;
+	color: #929292;
+	font-size: 0.28rem;
+	float: right;
+}
+.lzg_shuju_box{
+	width: 1.9rem;
+	height: 2.2rem;
+	margin: 0.3rem 0.2rem;
+}
+.lzg_cir{
+	width: 100%;
+	height: 0.35rem;
+	margin: auto;
+	padding: .15rem 0;
+}
+.lzg_cir img{
+	display: block;
+	float: right;
+	width: 60%;	
+}
+.lzg_shuju_box h3{
+	font-size: 0.26rem;
+	color: #abaaaa;
+	text-align: right;
+}
+.lzg_join{
+	margin-top: 0.1rem;
+	float: right;
+	width: 1.15rem;
+	height: 0.45rem;
+	background: #a31aef;
+	border-radius: 0.5rem;
+}
+.lzg_join a{
+	display: block;
+	color: #fff;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.45rem;
+}
+
+/*美食结束*/
+
+/*底部*/
+
+.lzg_dibu{
+	width: 6.9rem;
+	height: 0.66rem;
+	margin: 0.3rem 0;
+	
+	background: linear-gradient(90deg,#cf5ff6 0%,#584be5 70%);
+}
+.lzg_dibu span:nth-child(1){
+	font-size: 0.22rem;
+	float: left;
+	color: #fff;
+	line-height: 0.66rem;
+}
+.lzg_dibu span:nth-child(2){
+	font-size: 0.22rem;
+	float: right;
+	color: #fff;
+	line-height: 0.66rem;
+	margin-right: .2rem;
+	
+}
+/*底部结束*/
+
+
+/*输入*/
+.lzg_shuru{
+	width: 100vw;
+	height: 4.25rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.lzg_shuru img{
+	width: 100%;
+}
+
+
+

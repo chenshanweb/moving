@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	letter-spacing:0.02rem;
+}
+/*01*/
+.hu_xw{
+	width: 100%;
+	text-align: center;
+	font-size: 0.7rem;
+	margin-top:1.6rem ;
+}
+.hu_jc{
+	width:5.66rem ;height: 1rem;
+	margin:0 auto;
+	border-radius:0.5rem ;
+	border: 2px solid #D6D6D6;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1rem;
+	opacity: 0.8;
+	margin-top: 1.5rem;
+}
+.hu_jc1{
+	width:5.66rem ;height: 1rem;
+	margin:0 auto;
+	border-radius:0.5rem ;
+	border: 2px solid #D6D6D6;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1rem;
+	opacity: 0.8;
+	margin-top: 0.8rem;
+}
+.hu_p2{
+	font-size: 0.3rem;
+	text-align: center;
+	color: #6D6D6D;
+	margin-top: 0.25rem;
+}
+/*01 end*/
+
+
+
+/*03*/
+.hu_jx{
+	width: 5.7rem;height: 1rem;
+	margin: 0 auto;
+	border-radius:0.5rem ;
+	background:linear-gradient(90deg,#F758F9 0%,#C070FB 50%,#C070FB 70%,#C070FB);
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.5rem;
+	margin-top: 1.3rem;
+}
